@@ -1,0 +1,776 @@
+@0 = ~Urkodoël~
+@99999 = ~Ce module nécessite BG2EE ou EET.~
+//Base, aucun pv en plus
+@1 = ~Ah, de la visite ! Bienvenue, mortel. Je suis Urkodoël, anarchiliche de mon état, et dispensateur de connaissances que certains dieux préféreraient voir oubliées. Si vous êtes prêtre, druide ou chaman, nous avons peut-être quelques affaires à conclure.~
+
+@2 = ~Et les guerriers, les voleurs ou les mages ? Ils ne vous intéressent pas ?~
+
+@3 = ~Des connaissances interdites ? Voilà qui mérite quelques explications.~
+
+@4 = ~Aucunement. Les guerriers ont leurs armes, les voleurs leurs combines, et les mages leurs grimoires. Je ne vois aucune raison de leur offrir ce qu'ils possèdent déjà. Mon domaine, ce sont les lanceurs de sorts divins.~
+
+@5 = ~Fort bien. Et que proposez-vous exactement ?~
+
+@6 = ~Oh, trois fois rien. Je peux enseigner à un prêtre les sortilèges d'un archimage, à un druide les secrets de la magie arcanique, ou à un chaman des incantations qu'aucun esprit ne lui aurait jamais soufflées. Et tout cela sans renoncer à leur magie divine ! Mieux encore, chaque sort appris s'accompagne de la capacité de le mémoriser une fois de plus. Une petite entorse aux règles de la magie, en somme. Les dieux détestent cela. Moi, j'adore.~
+
+@7 = ~Voilà qui semble presque trop beau pour être vrai. Quel est votre prix ?~
+
+@8 = ~De l'or ? Quelle vulgarité ! Non, je préfère une monnaie plus... personnelle. Pour chaque niveau de sort que je vous enseigne, je prélève un point de votre vitalité maximale. Définitivement, bien entendu. Un sort du troisième cercle vous coûtera trois points de vie. Voyez cela comme un investissement dans votre éducation.~
+
+@9 = ~Cela dit, si vous tenez absolument à vous débarrasser de quelques pièces d'or, je dispose également d'une petite collection d'objets susceptibles de vous intéresser. Je ne suis pas entièrement fermé au commerce traditionnel.~
+
+@10 = ~Ah, vous revoilà ! Seriez-vous venu enrichir vos connaissances ? Ou peut-être vous délester de quelques années d'espérance de vie ? Rassurez-vous, je ne fais pas de différence entre les deux.~
+
+@11 = ~Montrez-moi les sorts que vous pouvez m'enseigner.~
+
+@12 = ~J'aimerais voir les objets que vous vendez.~
+
+@13 = ~Rappelez-moi les conditions de notre petit arrangement.~
+
+@14 = ~Pas aujourd'hui, merci.~
+
+//Si le personnage n'est ni prêtre, ni druide, ni chaman :
+
+@15 = ~Tiens, encore vous ! Toujours aucune aptitude à la magie divine, à ce que je vois. Vous savez, revenir me voir ne changera rien à cette regrettable situation. Mais si vous appréciez ma compagnie à ce point, je peux toujours vous accorder quelques instants. Je ne garantis pas qu'ils seront agréables.~
+
+@16 = ~Vous êtes certain de ne rien pouvoir faire pour moi ?~
+
+@17 = ~Rappelez-moi pourquoi vous ne pouvez rien m'enseigner.~
+
+@18 = ~Dans ce cas, je vous laisse à vos occupations.~
+
+//Réponse à @13 :
+@19 = ~Avec plaisir ! Je vous transmets un savoir que les dieux n'avaient certainement pas prévu de vous laisser acquérir. En échange, vous me cédez un point de vie maximal par niveau de sort. Un paiement définitif, naturellement. Et chaque sort enseigné vous accorde également un emplacement de mémorisation supplémentaire. N'est-ce pas une transaction admirablement équitable ?~
+
+//Réponse à @17 :
+@20 = ~Parce que mon art consiste à faire entrer la magie arcanique dans les petits compartiments que les dieux ont réservés à leurs fidèles. Sans ces compartiments, je n'ai rien à remplir ! Et croyez-moi, les créer de toutes pièces serait une entreprise autrement plus pénible.~
+
+//Réponse à @16 :
+@21 = ~Absolument certain. Mes enseignements sont réservés aux prêtres, druides et chamans, et mes marchandises leur sont exclusivement destinées. Vous pourriez certes acheter quelque chose, mais vous seriez bien incapable d'en faire usage. Et je déteste les clients qui reviennent se plaindre.~
+
+@30 = ~De quel niveau est le sort que vous voudriez apprendre ?~
+@31 = ~Je voudrais apprendre un sort de niveau 1.~
+@32 = ~Je voudrais apprendre un sort de niveau 2.~
+@33 = ~Je voudrais apprendre un sort de niveau 3.~
+@34 = ~Je voudrais apprendre un sort de niveau 4.~
+@35 = ~Je voudrais apprendre un sort de niveau 5.~
+@36 = ~Je voudrais apprendre un sort de niveau 6.~
+@37 = ~Je voudrais apprendre un sort de niveau 7.~
+@38 = ~Je voudrais apprendre un sort de niveau 8.~
+@39 = ~Je voudrais apprendre un sort de niveau 9.~
+@3999 = ~Je voudrais apprendre un sort épique.~
+@40 = ~Je reviendrai.~
+@41 = ~Je me suis trompé, je voudrais choisir un autre niveau.~~Je me suis trompée, je voudrais choisir un autre niveau.~
+
+@50 = ~Les sorts épiques ! Nous voici au-delà des limites que les dieux eux-mêmes prétendent imposer. Quelle délicieuse insolence ! Voyons ce que je peux vous enseigner.~
+
+@51 = ~Le premier cercle ! Il faut bien commencer quelque part. Même les plus grandes hérésies ont débuté par une petite transgression.~
+
+@52 = ~Le deuxième cercle, fort bien. Les dieux commencent à froncer les sourcils, et nous n'en sommes qu'au début ! Voyons mes propositions.~
+
+@53 = ~Le troisième cercle ? Excellent choix ! Voyons quelles connaissances vous êtes prêt à payer de votre personne...~
+
+@54 = ~Le quatrième cercle ! Nous entrons dans des domaines où les autorités divines commencent à s'inquiéter sérieusement. Comme c'est réjouissant !~
+
+@55 = ~Le cinquième cercle ! Voilà qui devient intéressant. À ce stade, quelques prêtres orthodoxes seraient déjà en train de préparer votre excommunication.~
+
+@56 = ~Le sixième cercle ! À ce niveau, même les dieux doivent commencer à se demander qui vous a donné la permission. Certainement pas moi : je ne demande jamais la permission.~
+
+@57 = ~Le septième cercle ! Le sommet de la magie sacerdotale ordinaire. Et dire qu'on prétend que les prêtres doivent se contenter de ce que leurs dieux leur accordent !~
+
+@58 = ~Le huitième cercle ! Des sortilèges que bien des archimages ne maîtriseront jamais, et que vous allez pouvoir lancer en invoquant votre divinité. Quelle ironie !~
+
+@59 = ~Le neuvième cercle ! Nous voici au sommet de la magie ordinaire. « Ordinaire », bien entendu, est un mot que les archimages n'apprécient guère. Voyons mes offres.~
+
+@60 = ~Voilà qui est fait ! Une connaissance de plus dans votre esprit, un peu de vitalité en moins dans votre corps. Ah, les joies du commerce ! Puis-je encore vous être utile ?~
+
+@61 = ~Oui, j'aimerais apprendre un autre sort.~
+
+@62 = ~Non, cela suffira pour aujourd'hui. Au revoir, Urkodoël.~
+//Base niveau 1
+@101 = ~Je voudrais connaître le sort Glisse.~
+@102 = ~Je voudrais connaître le sort Armure.~
+@103 = ~Je voudrais connaître le sort Mains ardentes.~
+@104 = ~Je voudrais connaître le sort Charme-personne.~
+@105 = ~Je voudrais connaître le sort Vapeur colorée.~
+@106 = ~Je voudrais connaître le sort Cécité.~
+@107 = ~Je voudrais connaître le sort Amitié.~
+@108 = ~Je voudrais connaître le sort Protection contre la pétrification.~
+@111 = ~Je voudrais connaître le sort Infravision.~
+@112 = ~Je voudrais connaître le sort Projectile magique.~
+@113 = ~Je voudrais connaître le sort Protection contre le mal.~
+@114 = ~Je voudrais connaître le sort Bouclier.~
+@115 = ~Je voudrais connaître le sort Poigne électrique.~
+@116 = ~Je voudrais connaître le sort Sommeil.~
+@117 = ~Je voudrais connaître le sort Toucher glacial.~
+@118 = ~Je voudrais connaître le sort Orbe chromatique.~
+@119 = ~Je voudrais connaître le sort Absorption mineure de Larloch.~
+@120 = ~Je voudrais connaître le sort Image réfléchie.~
+@123 = ~Je voudrais connaître le sort Familier.~
+@125 = ~Je voudrais connaître le sort Hantise.~
+//Base niveau 2
+@201 = ~Je voudrais connaître le sort Flou.~
+@202 = ~Je voudrais connaître le sort Détection du mal.~
+@203 = ~Je voudrais connaître le sort Détection de l'invisibilité.~
+@205 = ~Je voudrais connaître le sort Horreur.~
+@206 = ~Je voudrais connaître le sort Invisibilité.~
+@207 = ~Je voudrais connaître le sort Déblocage.~
+@208 = ~Je voudrais connaître le sort Connaissance des alignements.~
+@209 = ~Je voudrais connaître le sort Chance.~
+@210 = ~Je voudrais connaître le sort Résistance à la terreur.~
+@211 = ~Je voudrais connaître le sort Flèche acide de Melf.~
+@212 = ~Je voudrais connaître le sort Image miroir.~
+@213 = ~Je voudrais connaître le sort Nuage puant.~
+@214 = ~Je voudrais connaître le sort Force.~
+@215 = ~Je voudrais connaître le sort Toile d'araignée.~
+@217 = ~Je voudrais connaître le sort Incinérateur d'Agannazar.~
+@218 = ~Je voudrais connaître le sort Toucher de la goule.~
+@219 = ~Je voudrais connaître le sort Vocaliser.~
+@220 = ~Je voudrais connaître le sort Mot de Pouvoir Sommeil.~
+@221 = ~Je voudrais connaître le sort Rayon débilitant.~
+@223 = ~Je voudrais connaître le sort Surdité.~
+@224 = ~Je voudrais connaître le sort Poussière scintillante.~
+@299 = ~Je voudrais connaître le sort Convocation de vache.~
+//Base niveau 3
+@301 = ~Je voudrais connaître le sort Clairvoyance.~
+@302 = ~Je voudrais connaître le sort Délivrance de la magie.~
+@303 = ~Je voudrais connaître le sort Flèche enflammée.~
+@304 = ~Je voudrais connaître le sort Boule de feu.~
+@305 = ~Je voudrais connaître le sort Hâte.~
+@306 = ~Je voudrais connaître le sort Immobilisation des personnes.~
+@307 = ~Je voudrais connaître le sort Invisibilité sur 3 mètres.~
+@308 = ~Je voudrais connaître le sort Éclair.~
+@309 = ~Je voudrais connaître le sort Convocation de monstres I.~
+@310 = ~Je voudrais connaître le sort Non-détection.~
+@311 = ~Je voudrais connaître le sort Protection contre les projectiles non-magiques.~
+@312 = ~Je voudrais connaître le sort Lenteur.~
+@313 = ~Je voudrais connaître le sort Piège à crânes.~
+@314 = ~Je voudrais connaître le sort Toucher vampirique.~
+@315 = ~Je voudrais connaître le sort Forme ectoplasmique.~
+@316 = ~Je voudrais connaître le sort Charme néfaste.~
+@317 = ~Je voudrais connaître le sort Armure fantomatique.~
+@318 = ~Je voudrais connaître le sort Déviation de sorts mineure.~
+@319 = ~Je voudrais connaître le sort Protection contre le feu.~
+@320 = ~Je voudrais connaître le sort Protection contre le froid.~
+@321 = ~Je voudrais connaître le sort Annulation des protections.~
+@322
+ = ~Je voudrais connaître le sort Détection illusions.~
+@324 = ~Je voudrais connaître le sort Immobilisation des morts-vivants.~
+@325 = ~Je voudrais connaître le sort Minuscules météores de Melf.~
+@326 = ~Je voudrais connaître le sort Dissipation de la magie.~
+@401 = ~Je voudrais connaître le sort Confusion.~
+//Base niveau 4
+@403 = ~Je voudrais connaître le sort Bouclier de feu (bleu).~
+@404 = ~Je voudrais connaître le sort Tempête glaciale.~
+@405 = ~Je voudrais connaître le sort Invisibilité majeure.~
+@406 = ~Je voudrais connaître le sort Globe mineur d'invulnérabilité.~
+@407 = ~Je voudrais connaître le sort Convocation de monstres II.~
+@408 = ~Je voudrais connaître le sort Peau de pierre.~
+@409 = ~Je voudrais connaître le sort Contagion.~
+@410 = ~Je voudrais connaître le sort Délivrance de la malédiction.~
+@411 = ~Je voudrais connaître le sort Émotion.~
+@412 = ~Je voudrais connaître le sort Grande malédiction.~
+@413 = ~Je voudrais connaître le sort Sphère résistante d'Otiluke.~
+@414 = ~Je voudrais connaître le sort Armure spirituelle.~
+@415 = ~Je voudrais connaître le sort Métamorphose d'autrui.~
+@416 = ~Je voudrais connaître le sort Métamorphose.~
+@417 = ~Je voudrais connaître le sort Arme enchantée.~
+@418 = ~Je voudrais connaître le sort Bouclier de feu (rouge).~
+@419 = ~Je voudrais connaître le sort Mot secret.~
+@420 = ~Je voudrais connaître le sort Séquenceur mineur.~
+@421 = ~Je voudrais connaître le sort Champ de téléportation.~
+@423 = ~Je voudrais connaître le sort Progéniture d'Araignée.~
+@424 = ~Je voudrais connaître le sort Vision lointaine.~
+@425 = ~Je voudrais connaître le sort Oeil de magicien.~
+//Base niveau 5
+@501 = ~Je voudrais connaître le sort Animation des morts.~
+@502 = ~Je voudrais connaître le sort Nuage mortel.~
+@503 = ~Je voudrais connaître le sort Cône de froid.~
+@504 = ~Je voudrais connaître le sort Convocation de monstres III.~
+@505 = ~Je voudrais connaître le sort Porte d'ombre.~
+@506 = ~Je voudrais connaître le sort Domination.~
+@507 = ~Je voudrais connaître le sort Immobilisation des monstres.~
+@508 = ~Je voudrais connaître le sort Chaos.~
+@509 = ~Je voudrais connaître le sort Débilité mentale.~
+@510 = ~Je voudrais connaître le sort Immunité aux sorts.~
+@511 = ~Je voudrais connaître le sort Protection contre les armes non-magiques.~
+@512 = ~Je voudrais connaître le sort Protection contre l'électricité.~
+@513 = ~Je voudrais connaître le sort Brêche.~
+@514 = ~Je voudrais connaître le sort Abaissement de la Résistance.~
+@515 = ~Je voudrais connaître le sort Oracle.~
+@516 = ~Je voudrais connaître le sort Convocation d'Elémental de Feu mineur.~
+@517 = ~Je voudrais connaître le sort Protection contre l'acide.~
+@518 = ~Je voudrais connaître le sort Lame fantôme.~
+@519 = ~Je voudrais connaître le sort Bouclier de sort.~
+@520 = ~Je voudrais connaître le sort Conjuration d'Elémental d'Air mineur.~
+@521 = ~Je voudrais connaître le sort Conjuration d'Elémental de Terre mineur.~
+@522 = ~Je voudrais connaître le sort Renvoi de sorts mineur.~
+@523 = ~Je voudrais connaître le sort Feu solaire.~
+//Base niveau 6
+@601 = ~Je voudrais connaître le sort Chasseur invisible.~
+@602 = ~Je voudrais connaître le sort Globe d'invulnérabilité.~
+@603 = ~Je voudrais connaître le sort Transformation de Tenser.~
+@604 = ~Je voudrais connaître le sort Transmutation de la Chair en Pierre.~
+@605 = ~Je voudrais connaître le sort Sort de mort.~
+@606 = ~Je voudrais connaître le sort Protection contre l'énergie magique.~
+@607 = ~Je voudrais connaître le sort Double illusoir.~
+@608 = ~Je voudrais connaître le sort Perce-magie.~
+@609 = ~Je voudrais connaître le sort Vision véritable.~
+@611 = ~Je voudrais connaître le sort Protection contre les armes magiques.~
+@612 = ~Je voudrais connaître le sort Mot de pouvoir : Silence.~
+@613 = ~Je voudrais connaître le sort Hâte améliorée.~
+@614 = ~Je voudrais connaître le sort Brume mortelle.~
+@615 = ~Je voudrais connaître le sort Chaîne d'éclairs.~
+@616 = ~Je voudrais connaître le sort Désintégration.~
+@617 = ~Je voudrais connaître le sort Contingence.~
+//Base niveau 7
+@618 = ~Je voudrais connaître le sort Déviation de sorts.~
+@619 = ~Je voudrais connaître le sort Appel de la Wyverne.~
+@620 = ~Je voudrais connaître le sort Conjuration d'un élémental de Feu.~
+@621 = ~Je voudrais connaître le sort Convocation d'Elémental d'Air.~
+@622 = ~Je voudrais connaître le sort Conjuration d'un élémental de Terre.~
+@623 = ~Je voudrais connaître le sort Convocation de Vers charognards.~
+@624 = ~Je voudrais connaître le sort Convocation de Nishruu.~
+@625 = ~Je voudrais connaître le sort Transmutation de la pierre en chair.~
+@701 = ~Je voudrais connaître le sort Renvoi de sorts.~
+@702 = ~Je voudrais connaître le sort Protection contre les éléments.~
+@703 = ~Je voudrais connaître le sort Image renforcée.~
+@704 = ~Je voudrais connaître le sort Rayon rubis d'inversion.~
+@705 = ~Je voudrais connaître le sort Fouet protecteur de Khelben.~
+@707 = ~Je voudrais connaître le sort Cacofiélon.~
+@708 = ~Je voudrais connaître le sort Manteau.~
+@710 = ~Je voudrais connaître le sort Séquenceur de sorts.~
+@711 = ~Je voudrais connaître le sort Sphère du chaos.~
+@712 = ~Je voudrais connaître le sort Boule de feu à retardement.~
+@713 = ~Je voudrais connaître le sort Doigt de mort.~
+@714 = ~Je voudrais connaître le sort Vaporisation prismatique.~
+@715 = ~Je voudrais connaître le sort Mot de pouvoir : Etourdissement.~
+@716 = ~Je voudrais connaître le sort Épée de Mordenkainen.~
+@717 = ~Je voudrais connaître le sort Convocation d'Efrit.~
+@718 = ~Je voudrais connaître le sort Convocation de Djinn.~
+@719 = ~Je voudrais connaître le sort Convocation de Hakeashar.~
+@720 = ~Je voudrais connaître le sort Contrôle des morts-vivants.~
+@721 = ~Je voudrais connaître le sort Invisibilité de masse.~
+@722 = ~Je voudrais connaître le sort Souhait mineur.~
+//Base niveau 8
+@803 = ~Je voudrais connaître le sort Protection contre l'énergie.~
+@804 = ~Je voudrais connaître le sort Simulacre.~
+@805 = ~Je voudrais connaître le sort Perce bouclier.~
+@807 = ~Je voudrais connaître le sort Convocation d'un Fiélon.~
+@808 = ~Je voudrais connaître le sort Manteau Amélioré.~
+@809 = ~Je voudrais connaître le sort Déclencheur de sort.~
+@810 = ~Je voudrais connaître le sort Nuage incendiaire.~
+@811 = ~Je voudrais connaître le sort Symbole, Terreur.~
+@812 = ~Je voudrais connaître le sort Flétrissure abominable d'Abi-Dalzim.~
+@813 = ~Je voudrais connaître le sort Labyrinthe.~
+@815 = ~Je voudrais connaître le sort Mot de pouvoir, Cécité.~
+@816 = ~Je voudrais connaître le sort Symbole, Etourdissement.~
+@817 = ~Je voudrais connaître le sort Symbole, Mort.~
+@818 = ~Je voudrais connaître le sort Poing serré de Bigby.~
+@902 = ~Je voudrais connaître le sort Piège à sorts.~
+//Base niveau 9
+@903 = ~Je voudrais connaître le sort Sort d'assaut.~
+@905 = ~Je voudrais connaître le sort Portail.~
+@907 = ~Je voudrais connaître le sort Immunité Absolue.~
+@908 = ~Je voudrais connaître le sort Chaîne de contingence.~
+@909 = ~Je voudrais connaître le sort Arrêt de temps.~
+@910 = ~Je voudrais connaître le sort Emprisonnement.~
+@911 = ~Je voudrais connaître le sort Nuée de météores.~
+@912 = ~Je voudrais connaître le sort Mot de pouvoir : Mort.~
+@913 = ~Je voudrais connaître le sort Cri de la Banshee.~
+@914 = ~Je voudrais connaître le sort Drainage d'énergie.~
+@915 = ~Je voudrais connaître le sort Lame noire du désastre.~
+@916 = ~Je voudrais connaître le sort Changement de forme.~
+@917 = ~Je voudrais connaître le sort Liberté.~
+@918 = ~Je voudrais connaître le sort Main broyante de Bigby.~
+@919 = ~Je voudrais connaître le sort Souhait.~
+//Base épique
+@921 = ~Je voudrais connaître le sort Célérité améliorée.~
+@922 = ~Je voudrais connaître le sort Souffle de dragon~
+@923 = ~Je voudrais connaître le sort Invocation de planétaire.~
+@924 = ~Je voudrais connaître le sort Invocation de planétaire déchu.~
+@925 = ~Je voudrais connaître le sort Comète.~
+
+//Inteplan
+//Interplan niveau 1
+@1101 = ~Je voudrais connaître le sort Explosion de feu.~
+@1102 = ~Je voudrais connaître le sort Bouclier contre les sorts.~
+@1103 = ~Je voudrais connaître le sort Particules magiques de Déorie.~
+@1104 = ~Je voudrais connaître le sort Bouffée ardente.~
+@1105 = ~Je voudrais connaître le sort Répulsion.~
+@1106 = ~Je voudrais connaître le sort Absence.~
+@1107 = ~Je voudrais connaître le sort Mot de pouvoir : Arrêt.~
+//@1108 = ~Je voudrais connaître le sort Remembrance blessante de Torolonor.~
+//Interplan niveau 
+@1201 = ~Je voudrais connaître le sort Précision.~
+@1202 = ~Je voudrais connaître le sort Tampon d’énergie.~
+@1203 = ~Je voudrais connaître le sort Pulsation de flammes.~
+@1204 = ~Je voudrais connaître le sort Frappe du serpent.~
+@1205 = ~Je voudrais connaître le sort Bâton de puissance.~
+@1206 = ~Je voudrais connaître le sort Hexalames.~
+@1207 = ~Je voudrais connaître le sort Projectile ultramagique.~
+@1208 = ~Je voudrais connaître le sort Bête illusoire de Nix.~
+@1209 = ~Je voudrais connaître le sort Malédiction de l'essaim.~
+@1210 = ~Je voudrais connaître le sort Chute de vache.~
+@1211 = ~Je voudrais connaître le sort Techniques de bricoleur.~
+@1212 = ~Je voudrais connaître le sort Regard appuyé de Salyvia.~
+//Interplan niveau 3
+@1301 = ~Je voudrais connaître le sort Vision instinctive d'Achitoza.~
+@1302 = ~Je voudrais connaître le sort Prouesse guerrière.~
+@1303 = ~Je voudrais connaître le sort Griffes du malheur.~
+@1304 = ~Je voudrais connaître le sort Coups mortels de Tenser.~
+@1305 = ~Je voudrais connaître le sort Force incommensurable de Bigdip.~
+@1306 = ~Je voudrais connaître le sort Arme chargée.~
+@1307 = ~Je voudrais connaître le sort Petites poules appétissantes de Nix.~
+//@1308 = ~Je voudrais connaître le sort Note résonnante.~
+@1309 = ~Je voudrais connaître le sort Crâne hurlant du Pandémonium.~
+@1310 = ~Je voudrais connaître le sort Aura merveilleuse de Déorie.~
+@1311 = ~Je voudrais connaître le sort Fléau des fiélons.~
+@1312 = ~Je voudrais connaître le sort Vol de sortilège.~
+@1313 = ~Je voudrais connaître le sort Marche de l'ombre.~
+@1314 = ~Je voudrais connaître le sort Poigne acide.~
+@1315 = ~Je voudrais connaître le sort Potions Boum-Boum de Gilispur.~
+@1316 = ~Je voudrais connaître le sort Ambidextrie.~
+@1317 = ~Je voudrais connaître le sort Vol de chance.~
+@1318 = ~Je voudrais connaître le sort Sortie rapide de Déorie.~
+@1319 = ~Je voudrais connaître le sort Intensification d'énergie.~
+@1320 = ~Je voudrais connaître le sort Accès de rage.~
+//@1321 = ~Je voudrais connaître le sort Remembrance mortelle de Torolonor.~
+//Interplan niveau 4
+@1401 = ~Je voudrais connaître le sort Coup de chance.~
+@1402 = ~Je voudrais connaître le sort Affaiblissement.~
+@1403 = ~Je voudrais connaître le sort Contact de la Nature.~
+@1404 = ~Je voudrais connaître le sort Brandons.~
+@1405 = ~Je voudrais connaître le sort Nova de poison.~
+@1406 = ~Je voudrais connaître le sort Image réfléchie majeure.~
+//@1407 = ~Je voudrais connaître le sort Rupture fantastique de Bakanëo*.~
+@1408 = ~Je voudrais connaître le sort Assassin imaginaire.~
+@1409 = ~Je voudrais connaître le sort Poing rageur de Keleg-Ze.~
+@1410 = ~Je voudrais connaître le sort Bouclier des fées.~
+@1411 = ~Je voudrais connaître le sort Conflagration électrique.~
+@1412 = ~Je voudrais connaître le sort Chute de sable.~
+@1413 = ~Je voudrais connaître le sort Vents protecteurs.~
+@1414 = ~Je voudrais connaître le sort Sol mouvant.~
+@1415 = ~Je voudrais connaître le sort Électronullification.~
+@1416 = ~Je voudrais connaître le sort Squelette frénétique.~
+@1417 = ~Je voudrais connaître le sort Création d'arc fantôme.~
+@1418 = ~Je voudrais connaître le sort Décharge statique.~
+//Interplan niveau 5
+@1501 = ~Je voudrais connaître le sort Missiles explosifs.~
+@1502 = ~Je voudrais connaître le sort Corruption mnémonique.~
+@1503 = ~Je voudrais connaître le sort Lames dansantes.~
+@1504 = ~Je voudrais connaître le sort Canon magique.~
+//@1505 = ~Je voudrais connaître le sort Mot de pouvoir : Résonance.~
+@1506 = ~Je voudrais connaître le sort Fabuleuse Boule de feu de Mazaron.~
+@1507 = ~Je voudrais connaître le sort Précognition.~
+@1508 = ~Je voudrais connaître le sort Malédiction de Balishen.~
+//@1509 = ~Je voudrais connaître le sort Hurlement de fantôme.~
+@1510 = ~Je voudrais connaître le sort Magie assurée.~
+@1511 = ~Je voudrais connaître le sort Souffle caustique.~
+@1512 = ~Je voudrais connaître le sort Accélérateur de Lubath.~
+@1513 = ~Je voudrais connaître le sort Ponction.~
+//@1514 = ~Je voudrais connaître le sort Chant dwéomérique.~
+@1515 = ~Je voudrais connaître le sort Fantastique triade de Mazaron.~
+@1516 = ~Je voudrais connaître le sort Boucliers anti-attaques.~
+//@1517 = ~Je voudrais connaître le sort Protecteur chaotique de Lobini*.~
+@1518 = ~Je voudrais connaître le sort Déplacements magiques de Déorie.~
+@1519 = ~Je voudrais connaître le sort Animation d'air.~
+@1520 = ~Je voudrais connaître le sort Vulnérabilité aux armes.~
+@1521 = ~Je voudrais connaître le sort Sphère antimagique de Piboloo.~
+//@1522 = ~Je voudrais connaître le sort Déchaînement entropique*.~
+//Interplan niveau 6
+@1601 = ~Je voudrais connaître le sort Protection tellurique.~
+@1602 = ~Je voudrais connaître le sort Conversion magique d'Alabastine.~
+@1603 = ~Je voudrais connaître le sort Fureur combative.~
+@1604 = ~Je voudrais connaître le sort Porte vers l'Interplan.~
+@1605 = ~Je voudrais connaître le sort Scion de la Flamme.~
+@1606 = ~Je voudrais connaître le sort Sang bouillonnant.~
+//@1607 = ~Je voudrais connaître le sort Mémorisation selon Déorie.~
+@1608 = ~Je voudrais connaître le sort Chaos tranchant de Keleg-Ze.~
+@1609 = ~Je voudrais connaître le sort Volée de projectiles chromatiques.~
+@1610 = ~Je voudrais connaître le sort Corps souverain.~
+@1611 = ~Je voudrais connaître le sort Morsure du froid.~
+@1612 = ~Je voudrais connaître le sort Armure anti-chocs.~
+@1613 = ~Je voudrais connaître le sort Innommable beauté.~
+@1614 = ~Je voudrais connaître le sort Chaussons magiques de Tokilom.~
+@1615 = ~Je voudrais connaître le sort Métamorphose de familier.~
+@1616 = ~Je voudrais connaître le sort De la pierre sort la gemme.~
+@1617 = ~Je voudrais connaître le sort Éviscération.~
+@1618 = ~Je voudrais connaître le sort Permanence de minion.~
+//Interplan niveau 7
+@1701 = ~Je voudrais connaître le sort Lamétoile.~
+//@1702 = ~Je voudrais connaître le sort Rappel anarchique de Déorie.~
+@1703 = ~Je voudrais connaître le sort Affliction.~
+@1704 = ~Je voudrais connaître le sort Flèche magique de Salyvia.~
+@1705 = ~Je voudrais connaître le sort Enchantement d'arme majeur.~
+@1706 = ~Je voudrais connaître le sort Projectile Arc-en-ciel.~
+@1707 = ~Je voudrais connaître le sort Toile arachnéenne.~
+@1708 = ~Je voudrais connaître le sort Missile tueur de dragon de Ralorn.~
+@1709 = ~Je voudrais connaître le sort Orbe de glace.~
+@1710 = ~Je voudrais connaître le sort Allié imagé.~
+@1711 = ~Je voudrais connaître le sort Création de mage spectral.~
+@1712 = ~Je voudrais connaître le sort Connexion à la Nature.~
+@1713 = ~Je voudrais connaître le sort Amélioration de troupes selon Hachitoza.~
+//@1714 = ~Je voudrais connaître le sort Mémorisation majeure selon Déorie.~
+@1715 = ~Je voudrais connaître le sort Tatouage de pouvoir.~
+@1716 = ~Je voudrais connaître le sort Souffle de Porphatys.~
+@1717 = ~Je voudrais connaître le sort Invocation urgente de Lobini.~
+//Interplan niveau 8
+@1801 = ~Je voudrais connaître le sort Oeil sorcier.~
+@1802 = ~Je voudrais connaître le sort Nuage tueur de troll.~
+@1803 = ~Je voudrais connaître le sort Morts en marche.~
+@1804 = ~Je voudrais connaître le sort Frappe de l'assassin.~
+@1805 = ~Je voudrais connaître le sort Bras de foudre.~
+@1806 = ~Je voudrais connaître le sort Téléportations explosives.~
+@1807 = ~Je voudrais connaître le sort Discret Massacreur de Korrelo.~
+@1808 = ~Je voudrais connaître le sort Rage de masse.~
+@1809 = ~Je voudrais connaître le sort Combustion spontanée résonante.~
+@1810 = ~Je voudrais connaître le sort Appel du feu.~
+@1811 = ~Je voudrais connaître le sort Décharges vengeresses de Keleg-Ze.~
+@1812 = ~Je voudrais connaître le sort Sphère foudroyante de Keleg-Ze.~
+@1813 = ~Je voudrais connaître le sort Formidable Tétrade de Mazaron.~
+@1814 = ~Je voudrais connaître le sort Purge de la magie.~
+@1815 = ~Je voudrais connaître le sort Brume Trouble de Korrelo.~
+@1816 = ~Je voudrais connaître le sort Création de minion explosif.~
+@1817 = ~Je voudrais connaître le sort Bestioles explosives de Nix.~
+@1818 = ~Je voudrais connaître le sort Forme du feu.~
+@1819 = ~Je voudrais connaître le sort Convergence fantastique.~
+@1820 = ~Je voudrais connaître le sort Temps suspendu.~
+@1821 = ~Je voudrais connaître le sort Toucher des Abysses.~
+//Interplan niveau 9
+@1901 = ~Je voudrais connaître le sort Assaut d’énergie.~
+@1902 = ~Je voudrais connaître le sort Oblitération.~
+@1903 = ~Je voudrais connaître le sort Soleil ardent.~
+@1904 = ~Je voudrais connaître le sort Danse de l'acier.~
+@1905 = ~Je voudrais connaître le sort Canon magique majeur.~
+@1906 = ~Je voudrais connaître le sort Refuge d'essence vitale.~
+@1907 = ~Je voudrais connaître le sort Harnachement de guerre d'Agenor Parcilofan.~
+@1908 = ~Je voudrais connaître le sort Contrôle du temps.~
+//@1909 = ~Je voudrais connaître le sort Conversion magique majeure.~
+@1910 = ~Je voudrais connaître le sort Main du Diable.~
+@1911 = ~Je voudrais connaître le sort Globe d'invulnérabilité féerique.~
+@1912 = ~Je voudrais connaître le sort Eau de vie.~
+@1913 = ~Je voudrais connaître le sort Doubles explosifs de Nix.~
+@1914 = ~Je voudrais connaître le sort Bombardement.~
+@1915 = ~Je voudrais connaître le sort Fusionneur dwéomérique d'Alabastine.~
+@1916 = ~Je voudrais connaître le sort Dweomer universel de Pragadon.~
+@1917 = ~Je voudrais connaître le sort Garde du corps vampirique.~
+@1918 = ~Je voudrais connaître le sort Oeil-Tyran.~
+@1919 = ~Je voudrais connaître le sort Contrôle de Construction.~
+@1920 = ~Je voudrais connaître le sort Ennemi subconscient.~
+
+
+//Test your meetle
+@2001 = ~Je voudrais connaître le sort Courbespace.~
+@2002 = ~Je voudrais connaître le sort Invocation de dragon rouge.~	//SUMDRAG et SUMDRAG
+
+//SCS
+@2011 = ~Je voudrais connaître le sort Poing de pierre.~
+@2012 = ~Je voudrais connaître le sort Couteau de glace.~
+@2021 = ~Je voudrais connaître le sort Éclair mineur.~
+@2022 = ~Je voudrais connaître le sort Combustion.~
+@2031 = ~Je voudrais connaître le sort Transformation d'un caillou en rocher.~
+@2051 = ~Je voudrais connaître le sort Télékinésie.~
+@2081 = ~Je voudrais connaître le sort Tempête télékinétique.~
+@2091 = ~Je voudrais connaître le sort Tempête d'éclairs.~
+@2092 = ~Je voudrais connaître le sort Rayon de givre de Veridon.~
+@2093 = ~Je voudrais connaître le sort Création de squelette de garde.~
+
+//IWDEE
+@3011 = ~Je voudrais connaître le sort Repli expéditif.~
+@3021 = ~Je voudrais connaître le sort Nuée de boules de neige de Snilloc.~
+@3022 = ~Je voudrais connaître le sort Bâton décuplé.~
+@3023 = ~Je voudrais connaître le sort Grâce féline.~
+@3031 = ~Je voudrais connaître le sort Lance de glace.~
+@3032 = ~Je voudrais connaître le sort Lance de destruction.~
+@3041 = ~Je voudrais connaître le sort Sang brûlant de Beltyn.~
+@3042 = ~Je voudrais connaître le sort Émotion, courage.~
+@3043 = ~Je voudrais connaître le sort Émotion, espoir.~
+@3044 = ~Je voudrais connaître le sort Émotion, terreur.~
+@3045 = ~Je voudrais connaître le sort Projectiles de force de Mordenkainen.~
+@3046 = ~Je voudrais connaître le sort Cri.~
+@3047 = ~Je voudrais connaître le sort Sphère acide.~
+@3048 = ~Je voudrais connaître le sort Monstres d'ombre.~
+@3051 = ~Je voudrais connaître le sort Linceul de flammes.~
+@3052 = ~Je voudrais connaître le sort Convocation d'ombres.~
+@3053 = ~Je voudrais connaître le sort Conjuration d'élémentaire d'eau mineur.~
+@3054 = ~Je voudrais connaître le sort Demi-ombres.~
+@3061 = ~Je voudrais connaître le sort Sphère glaciale d'Otiluke.~
+@3062 = ~Je voudrais connaître le sort Dards d'os.~
+@3063 = ~Je voudrais connaître le sort Destruction d'Ãme.~
+@3064 = ~Je voudrais connaître le sort Résistance de troll.~
+@3065 = ~Je voudrais connaître le sort Coquille antimagique.~
+@3066 = ~Je voudrais connaître le sort Toucher de la liche.~
+@3067 = ~Je voudrais connaître le sort Reflets.~
+@3068 = ~Je voudrais connaître le sort Conjuration d'élémentaire d'eau.~
+@3071 = ~Je voudrais connaître le sort Tempête acide.~
+@3072 = ~Je voudrais connaître le sort Suffocation.~
+@3073 = ~Je voudrais connaître le sort Convocation de monstres V.~
+@3074 = ~Je voudrais connaître le sort Lame de force de Mordenkainen.~
+@3075 = ~Je voudrais connaître le sort Rage de Malavon.~
+@3076 = ~Je voudrais connaître le sort Cercle d'yeux.~
+@3081 = ~Je voudrais connaître le sort Esprit impénétrable.~
+@3082 = ~Je voudrais connaître le sort Grand cri.~
+@3083 = ~Je voudrais connaître le sort Corps de fer.~
+@3084 = ~Je voudrais connaître le sort Convocation de monstres VI.~
+@3091 = ~Je voudrais connaître le sort Convocation de monstres VII.~
+
+
+//MIH spells
+//MIH niveau 1
+@4101 = ~Je voudrais connaître le sort Barrier.~//WIZARD_BARRIER
+//MIH niveau 2
+@4102 = ~Je voudrais connaître le sort Frost Fingers.~//WIZARD_FROST_FINGERS
+@4201 = ~Je voudrais connaître le sort Spark Shower.~//WIZARD_SPARK_SHOWER
+@4202 = ~Je voudrais connaître le sort Seeking.~//WIZARD_SEEKING
+@4203 = ~Je voudrais connaître le sort Summon Cats.~//WIZARD_SUMMON_CATS
+@4204 = ~Je voudrais connaître le sort Threestones.~//WIZARD_THREESTONES
+//MIH niveau 3
+@4301 = ~Je voudrais connaître le sort Improved Magic Missile.~//WIZARD_IMPROVED_MAGIC_MISSILE
+@4302 = ~Je voudrais connaître le sort Heroism.~//WIZARD_HEROISM
+@4303 = ~Je voudrais connaître le sort Blink.~//WIZARD_BLINK
+@4304 = ~Je voudrais connaître le sort Scintillating Sphere.~//WIZARD_SCINTILLATING_SPHERE
+@4305 = ~Je voudrais connaître le sort Minor Malison.~//WIZARD_MINOR_MALISON
+@4306 = ~Je voudrais connaître le sort Gust of Wind.~//WIZARD_GUST_OF_WIND
+@4307 = ~Je voudrais connaître le sort Alacrity.~//WIZARD_ALACRITY
+@4308 = ~Je voudrais connaître le sort Ball lightning.~//WIZARD_BALL_LIGHTNING
+//MIH niveau 4
+@4401 = ~Je voudrais connaître le sort Iron Maiden.~//WIZARD_IRON_MAIDEN
+@4402 = ~Je voudrais connaître le sort Slumber.~//WIZARD_SLUMBER
+@4403 = ~Je voudrais connaître le sort Rary's Mnemonic Enhancer.~//WIZARD_RARYS_MNEMONIC_ENHANCER
+@4404 = ~Je voudrais connaître le sort Evard's Black Tentacles.~//WIZARD_EVARDS_BLACK_TENTACLES
+//MIH niveau 5
+@4501 = ~Je voudrais connaître le sort Superheroism.~//WIZARD_SUPERHEROISM
+@4502 = ~Je voudrais connaître le sort Simbul's Spell Matrix.~//WIZARD_SPELL_MATRIX
+@4503 = ~Je voudrais connaître le sort Ramazith's Slime Summons.~//WIZARD_RAMAZITHS_SLIME_SUMMONS
+@4504 = ~Je voudrais connaître le sort Snilloc's Major Missile.~//WIZARD_SNILLOCS_MAJOR_MISSILE
+@4505 = ~Je voudrais connaître le sort Presper's Moonbow.~//WIZARD_PRESPERS_MOONBOW
+//MIH niveau 6
+@4601 = ~Je voudrais connaître le sort Mordenkainen's Lucubration.~//WIZARD_MORDENKAINENS_LUCUBRATION
+@4602 = ~Je voudrais connaître le sort Mirage Arcana.~//WIZARD_MIRAGE_ARCANA
+//MIH niveau 7
+@4701 = ~Je voudrais connaître le sort Summon Dao.~//WIZARD_SUMMON_DAO
+@4702 = ~Je voudrais connaître le sort Summon Marid.~//WIZARD_SUMMON_MARID
+@4703 = ~Je voudrais connaître le sort Faerie Sword.~//WIZARD_FAERIE_SWORD
+@4704 = ~Je voudrais connaître le sort Doom Legion.~//WIZARD_DOOM_LEGION
+@4705 = ~Je voudrais connaître le sort Mordenkainen's Magnificent Mansion.~//WIZARD_MAGNIFICENT_MANSION
+@4706 = ~Je voudrais connaître le sort Stygian Ice Storm.~//WIZARD_STYGIAN_ICE_STORM
+//MIH niveau 8
+@4801 = ~Je voudrais connaître le sort Major Globe of Invulnerability.~//WIZARD_MAJOR_GLOBE_OF_INVULNERABILITY
+@4802 = ~Je voudrais connaître le sort Polar Ray.~//WIZARD_POLAR_RAY
+@4803 = ~Je voudrais connaître le sort Mass Charm.~//WIZARD_MASS_CHARM
+@4804 = ~Je voudrais connaître le sort Shooting Stars.~//WIZARD_SHOOTING_STARS
+@4805 = ~Je voudrais connaître le sort Devastate.~//WIZARD_DEVASTATE
+@4806 = ~Je voudrais connaître le sort Lightning Ring.~//WIZARD_LIGHTNING_RING
+@4807 = ~Je voudrais connaître le sort Avissar's Flaming Weapon.~//WIZARD_AVISSARS_FLAMING_WEAPON
+//MIH niveau 9
+@4901 = ~Je voudrais connaître le sort Weird.~//WIZARD_WEIRD
+@4902 = ~Je voudrais connaître le sort Foresight.~//WIZARD_FORESIGHT
+@4903 = ~Je voudrais connaître le sort Khelben's Dweomerdoom.~//WIZARD_KHELBENS_DWEOMERDOOM
+//MIH épique
+@4905 = ~Je voudrais connaître le sort Algarth's embattlement.~//MIH_ALGARTHS_EMBATTLEMENT			(SPCL110)
+@4906 = ~Je voudrais connaître le sort Elminster's effulgent epuration.~//MIH_ELMINSTERS_EFFULGENT_EPURATION	(SPCL116)
+@4907 = ~Je voudrais connaître le sort Ioulaum's longevity~//MIH_IOULAUMS_LONGEVITY					(SPCL117)
+@4908 = ~Je voudrais connaître le sort Magic missile storm.~//MIH_MAGIC_MISSILE_STORM				(SPCL118)
+@4909 = ~Je voudrais connaître le sort Nazzer's nullification.~//MIH_NAZZERS_NULLIFICATION			(SPCL119)
+@4910 = ~Je voudrais connaître le sort Tolodine's killing wind.~//MIH_TOLODINES_KILLING_WIND		(SPCL120)
+
+//Spell & Magic (B_Spells)
+@5101 = ~Je voudrais connaître le sort Protective Shell.~
+@5102 = ~Je voudrais connaître le sort Anticipation.~
+@5103 = ~Je voudrais connaître le sort Exterminate.~
+@5104 = ~Je voudrais connaître le sort Filth's Bane.~
+@5105 = ~Je voudrais connaître le sort Alarm.~
+@5106 = ~Je voudrais connaître le sort Hypnotism.~
+@5107 = ~Je voudrais connaître le sort Detect Traps and Portals.~
+@5108 = ~Je voudrais connaître le sort Accelerate Metabolism.~
+@5109 = ~Je voudrais connaître le sort Vanish.~
+@5110 = ~Je voudrais connaître le sort Enervating Ray.~
+@5111 = ~Je voudrais connaître le sort Farseer.~
+@5112 = ~Je voudrais connaître le sort Phantasmal Force.~
+@5113 = ~Je voudrais connaître le sort Invisibility to Undead.~
+@5114 = ~Je voudrais connaître le sort Animate Skeleton.~
+@5115 = ~Je voudrais connaître le sort Carpet of Adhesion.~
+@5116 = ~Je voudrais connaître le sort Fire Burst.~
+@5117 = ~Je voudrais connaître le sort Reveal Magic.~
+@5118 = ~Je voudrais connaître le sort Dust Devil.~
+@5201 = ~Je voudrais connaître le sort Bolt of Paralysis.~
+@5202 = ~Je voudrais connaître le sort Fog Cloud.~
+@5203 = ~Je voudrais connaître le sort Blastbones.~
+@5204 = ~Je voudrais connaître le sort Illusory Fireball.~
+@5205 = ~Je voudrais connaître le sort Snowball.~
+@5206 = ~Je voudrais connaître le sort Ice Knife.~
+@5207 = ~Je voudrais connaître le sort Animate Zombie.~
+@5208 = ~Je voudrais connaître le sort Choke.~
+@5209 = ~Je voudrais connaître le sort ESP.~
+@5210 = ~Je voudrais connaître le sort Rope Trick.~
+@5301 = ~Je voudrais connaître le sort Solvent of Corrosion.~
+@5302 = ~Je voudrais connaître le sort Iron Mind.~
+@5303 = ~Je voudrais connaître le sort Plant Control.~
+@5304 = ~Je voudrais connaître le sort Disrupt Life.~
+@5305 = ~Je voudrais connaître le sort Sepia Snake Sigil.~
+@5401 = ~Je voudrais connaître le sort Charm Monster.~
+@5402 = ~Je voudrais connaître le sort Mindsight.~
+@5403 = ~Je voudrais connaître le sort Phantasmal Killer.~
+@5404 = ~Je voudrais connaître le sort Destroy Undead.~
+@5405 = ~Je voudrais connaître le sort Poison.~
+@5501 = ~Je voudrais connaître le sort Snilloc's Major Missile.~
+@5502 = ~Je voudrais connaître le sort Usurp Shell.~
+@5503 = ~Je voudrais connaître le sort Delayed Magic Missile.~
+@5601 = ~Je voudrais connaître le sort Siphon Vitality.~
+@5701 = ~Je voudrais connaître le sort Recharge.~
+@5801 = ~Je voudrais connaître le sort Demand.~
+@5802 = ~Je voudrais connaître le sort Unfailing Premonition.~
+@5803 = ~Je voudrais connaître le sort Polymorph Any Object.~
+@5901 = ~Je voudrais connaître le sort Weird.~
+@5902 = ~Je voudrais connaître le sort Mass Domination.~
+@5903 = ~Je voudrais connaître le sort Algarth's Embattlement.~
+
+//Olvyn Spells
+//Olvyn's niveau 1
+@6101 = ~Je voudrais connaître le sort Disruptive Surge.~		//Mewi151
+@6102 = ~Je voudrais connaître le sort Inertia.~				//Mewi152
+@6103 = ~Je voudrais connaître le sort Summon Kobold.~			//Mewi154
+@6104 = ~Je voudrais connaître le sort Dimension Door.~			//Mewi155
+@6105 = ~Je voudrais connaître le sort Jump.~		 			//Mewi156
+@6106 = ~Je voudrais connaître le sort Hex.~					//Mewi157
+@6107 = ~Je voudrais connaître le sort Reflect Attack.~			//Mewi158
+@6108 = ~Je voudrais connaître le sort Taunt.~					//Mewi159
+@6109 = ~Je voudrais connaître le sort Dimensional Chest.~		//Mewi160
+@6110 = ~Je voudrais connaître le sort Icarian Flight.~			//Mewi162
+@6111 = ~Je voudrais connaître le sort Chaos Teleport.~			//Mewi163
+//Olvyn's niveau 2
+@6201 = ~Je voudrais connaître le sort Power Word, Pull.~ 		//Mewi251
+@6202 = ~Je voudrais connaître le sort Ghostwalk.~ 				//Mewi252
+@6203 = ~Je voudrais connaître le sort Power Word, Push.~ 		//Mewi253
+@6204 = ~Je voudrais connaître le sort Intoxicate.~ 			//Mewi254
+@6205 = ~Je voudrais connaître le sort Null Healing.~			//Mewi255
+@6206 = ~Je voudrais connaître le sort Specific Spell Immunity.~	//Mewi256
+@6207 = ~Je voudrais connaître le sort Levitate.~ 				//Mewi257
+@6208 = ~Je voudrais connaître le sort Bounce Spell.~			//Mewi258
+@6209 = ~Je voudrais connaître le sort Far Cast.~ 				//Mewi260
+//Olvyn's niveau 3
+@6301 = ~Je voudrais connaître le sort Absorb Spell.~			//Mewi351
+@6302 = ~Je voudrais connaître le sort Fly.~					//Mewi352
+@6303 = ~Je voudrais connaître le sort Displacement.~ 			//Mewi353
+@6304 = ~Je voudrais connaître le sort Terror.~ 				//Mewi354
+@6305 = ~Je voudrais connaître le sort Control Slime.~			//Mewi355
+@6306 = ~Je voudrais connaître le sort Legend Lore.~			//Mewi356
+@6307 = ~Je voudrais connaître le sort Glyph of Spell Storing.~	//Mewi357
+@6308 = ~Je voudrais connaître le sort Familiar Spell.~			//Mewi358
+@6309 = ~Je voudrais connaître le sort Throw.~					//Mewi359
+@6310 = ~Je voudrais connaître le sort Heightening.~ 			//Mewi360
+@6311 = ~Je voudrais connaître le sort Mestil's Acid Breath.~	//Mewi361
+//Olvyn's niveau 4
+@6401 = ~Je voudrais connaître le sort Wall of Fire.~ 			//Mewi451
+@6402 = ~Je voudrais connaître le sort Phantasmal Killer.~		//Mewi452
+@6403 = ~Je voudrais connaître le sort Ghoulish Feast.~			//Mewi453
+@6404 = ~Je voudrais connaître le sort Backstab Sequencer.~		//Mewi454
+@6405 = ~Je voudrais connaître le sort Redirect Spell.~			//Mewi455
+@6406 = ~Je voudrais connaître le sort Copy Spell.~				//Mewi456
+@6407 = ~Je voudrais connaître le sort Linked Portals.~	 		//Mewi457
+@6408 = ~Je voudrais connaître le sort Vampiric Link.~			//Mewi458
+@6409 = ~Je voudrais connaître le sort Recall Party.~		 	//Mewi459
+@6410 = ~Je voudrais connaître le sort Chaos Cast.~			 	//Mewi460
+//Olvyn's niveau 5
+@6501 = ~Je voudrais connaître le sort Life Transfer.~			//Mewi551
+@6502 = ~Je voudrais connaître le sort Steal Spells.~			//Mewi552
+@6503 = ~Je voudrais gagner la capacité Ball Lightning.~		//Mewi554
+@6504 = ~Je voudrais connaître le sort Major Mirror Image.~		//Mewi555
+@6505 = ~Je voudrais connaître le sort Skeleton Horde.~			//Mewi556
+@6506 = ~Je voudrais connaître le sort Commando Conjuration.~	//Mewi557
+@6507 = ~Je voudrais connaître le sort Missile of Patience.~	//Mewi558
+@6508 = ~Je voudrais connaître le sort Ghostform.~				//Mewi559
+@6509 = ~Je voudrais connaître le sort Slime Drop.~				//Mewi560
+@6510 = ~Je voudrais connaître le sort Critical Spell.~			//Mewi562
+@6511 = ~Je voudrais connaître le sort Warrior Simulacrum.~		//Mewi563
+@6512 = ~Je voudrais connaître le sort Wall of Force.~			//Mewi564
+@6513 = ~Je voudrais connaître le sort Sacrificial Explosion.~	//Mewi565
+@6514 = ~Je voudrais connaître le sort Gedlee's Electric Barrier.~	//Mewi566
+@6515 = ~Je voudrais connaître le sort Rewind Time.~			//Mewi567
+@6516 = ~Je voudrais connaître le sort Teleportation Circle.~	//Mewi568
+//Olvyn's niveau 6
+@6601 = ~Je voudrais connaître le sort Isaac's Greater Missile Storm.~	//Mewi651
+@6602 = ~Je voudrais connaître le sort Freeze Inanimates.~		//Mewi652
+@6603 = ~Je voudrais connaître le sort Greater Nightmare.~		//Mewi653
+@6604 = ~Je voudrais connaître le sort Spellshaping: Fireball.~	//Mewi654
+@6605 = ~Je voudrais connaître le sort Slaying Sequencer.~		//Mewi655
+@6606 = ~Je voudrais connaître le sort Mass Charm.~				//Mewi656
+@6607 = ~Je voudrais connaître le sort Mind Fog.~				//Mewi657
+@6608 = ~Je voudrais connaître le sort Empower Familiar.~		//Mewi658
+@6609 = ~Je voudrais connaître le sort Bardic Sequencer.~		//Mewi659
+@6610 = ~Je voudrais connaître le sort Create Pit.~				//Mewi660
+//Olvyn's niveau 7
+@6701 = ~Je voudrais connaître le sort Mass Cast.~				//Mewi751
+@6702 = ~Je voudrais connaître le sort Forcecage.~				//Mewi753
+@6703 = ~Je voudrais connaître le sort Stygian Ice Storm.~		//Mewi754
+@6704 = ~Je voudrais connaître le sort Death Trigger.~			//Mewi755
+@6705 = ~Je voudrais connaître le sort Critical Sequencer.~		//Mewi756
+@6706 = ~Je voudrais connaître le sort Reanimate.~			 	//Mewi757
+@6707 = ~Je voudrais connaître le sort Skip Time.~				//Mewi758
+@6708 = ~Je voudrais connaître le sort Extraordinary Luck.~		//Mewi759
+@6709 = ~Je voudrais connaître le sort Lightning Stream.~		//Mewi760
+@6710 = ~Je voudrais connaître le sort Insanity.~				//Mewi762
+//Olvyn's niveau 8
+@6801 = ~Je voudrais connaître le sort Enhance Attribute.~		//Mewi851
+@6802 = ~Je voudrais connaître le sort Globe of Invisibility.~	//Mewi852
+@6803 = ~Je voudrais connaître le sort Otto's Irresistible Spin.~	//Mewi853
+@6804 = ~Je voudrais connaître le sort Recurring Contingency.~	//Mewi854
+@6805 = ~Je voudrais connaître le sort Omnipresence.~			//Mewi855
+@6806 = ~Je voudrais connaître le sort Contingency Curse.~		//Mewi856
+@6807 = ~Je voudrais connaître le sort Extend Vision.~			//Mewi857
+@6808 = ~Je voudrais connaître le sort Sphere of Reversed Gravity.~	//Mewi858
+@6809 = ~Je voudrais connaître le sort False Life.~				//Mewi859
+@6810 = ~Je voudrais connaître le sort Enslave.~		 		//Mewi860
+@6811 = ~Je voudrais connaître le sort Polar Ray.~				//Mewi861
+@6812 = ~Je voudrais connaître le sort Clone Other.~			//Mewi862
+@6813 = ~Je voudrais connaître le sort Metafireball.~			//Mewi863
+//Olvyn's niveau 9
+@6901 = ~Je voudrais connaître le sort Perfect Invisibility.~	//Mewi951
+@6902 = ~Je voudrais connaître le sort Mass Domination.~		//Mewi952
+@6903 = ~Je voudrais connaître le sort Attain Perfection.~		//Mewi953
+@6904 = ~Je voudrais connaître le sort Vampiric Feast.~			//Mewi954
+@6905 = ~Je voudrais connaître le sort Mass Sequencer.~			//Mewi955
+@6906 = ~Je voudrais connaître le sort Enoll Eva's Duplication.~	//Mewi956
+@6907 = ~Je voudrais connaître le sort Executioner's Eyes.~		//Mewi957
+@6908 = ~Je voudrais connaître le sort Phantasmal Dragon.~		//Mewi958
+@6909 = ~Je voudrais connaître le sort Damage Turning.~			//Mewi959
+@6910 = ~Je voudrais connaître le sort Eclectic Recall.~		//Mewi960
+@6911 = ~Je voudrais connaître le sort Teleport Step.~			//Mewi961
+//Olvyn's épique
+@6912 = ~Je voudrais connaître le sort Necropotence.~			//Mewi962
+@6913 = ~Je voudrais connaître le sort Mental agility.~			//Mewi963
+@6914 = ~Je voudrais connaître le sort Freezing wave.~			//Mewi964
+@6915 = ~Je voudrais connaître le sort Rampant lightning.~		//Mewi965
+@6916 = ~Je voudrais connaître le sort protecion from Timestop.~	//Mewi966
+@6917 = ~Je voudrais connaître le sort Culling Tought.~			//Mewi967
+@6918 = ~Je voudrais connaître le sort Sphere of Annihilation.~//Mewi968
+
+//Saradas magic épique
+@7901 = ~Je voudrais connaître le sort Spiritual explosion~		//!SPCINV
+@7902 = ~Je voudrais connaître le sort Impenetrable defense~	//!SPCABJ
+@7903 = ~Je voudrais connaître le sort Ego's fragility~			//!SPCALT
+@7904 = ~Je voudrais connaître le sort Summon Devil of baator~	//!SPCCON
+@7905 = ~Je voudrais connaître le sort Foreseeing the future~	//!SPCDIV
+@7906 = ~Je voudrais connaître le sort Absolute abnegation~		//!SPCENC
+@7907 = ~Je voudrais connaître le sort Legion of shadows~		//!SPCILL
+@7908 = ~Je voudrais connaître le sort Deathly hallows~			//!SPCNEC
+//@7909 = ~Je voudrais connaître le sort Shroud of wild magic~	//!SPCWIL
+@7910 = ~Je voudrais connaître le sort Dragonborn~				//!SPCDRA
+@7911 = ~Je voudrais connaître le sort Knowledge of the scholar~//!SPCGEN
+
+//Refinement épique
+@8901 = ~Je voudrais connaître le sort Egide~						//TG#AEGI 3
+@8902 = ~Je voudrais connaître le sort Champ de mort~				//TG#DTHF 3
+@8903 = ~Je voudrais connaître le sort Prévoyance~					//TG#FORS 3
+@8904 = ~Je voudrais connaître le sort Clones miroirs~				//LI#MICL 3
+@8905 = ~Je voudrais connaître le sort Révélation~					//LI#REVE 3
+@8906 = ~Je voudrais connaître le sort Rune d'immunité~				//LI#RUNE 3
+@8907 = ~Je voudrais connaître le sort Création de golem d'os~		//TG#BONE 3
+@8908 = ~Je voudrais connaître le sort Sort de ver~					//CA#SPWO 3
+@8909 = ~Je voudrais connaître le sort Attaque sauvage~				//CA#WSTR 3
+@8910 = ~Je voudrais connaître le sort Pacte obscur~				//TG#DARP 3
+@8911 = ~Je voudrais connaître le sort Invocation de golem magique~//TG#MAGG 3
+@8912 = ~Je voudrais connaître le sort Furie de Malavon~			//TG#GMAL 3
+@8913 = ~Je voudrais connaître le sort Création de golem de chair~	//TG#GOLE 3
+@8914 = ~Je voudrais connaître le sort Peau d'adamantine~			//TG#ADAM 3

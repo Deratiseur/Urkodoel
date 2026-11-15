@@ -1,0 +1,167 @@
+@2001 = ~Ceinture de constitution supérieure~
+@2002 = ~Cet objet a été créé par Urkodoël pour soutenir les clients qui céderaient facilement à la tentation du pouvoir qu'il a à offrir.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Constitution fixée à 20
+
+Poids : 1~
+
+@2003 = ~Casque de haute sagesse~
+@2004 = ~Cet objet a été créé par Urkodoël pour soutenir les clients qui céderaient facilement à la tentation du pouvoir qu'il a à offrir.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Sagesse +3
+
+Poids : 2~
+
+@2005 = ~Bracelets de vitalité supérieure~
+@2006 = ~Cet objet a été créé par Urkodoël pour soutenir les clients qui céderaient facilement à la tentation du pouvoir qu'il a à offrir.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Points de vie maximum : +20
+
+Poids : 2~
+
+@2007 = ~Gourdin vampirique~
+@2008 = ~Cet objet a été créé par Urkodoël pour soutenir les clients qui céderaient facilement à la tentation du pouvoir qu'il a à offrir.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- Chaque coup draine 1 point de vie de la cible et le transfère au porteur
+- Sur un coup critique, draine définitivement 1 point de vie maximum de la cible et l’ajoute aux points de vie maximum du porteur
+
+TAC0 : +3
+Dégâts : 1d6+3 (contondant)
+Facteur de vitesse : 1
+Type de compétence : Gourdin
+Type : arme à une main
+Nécessite : 5 en Force
+
+Poids : 1~
+
+@2009 = ~Amulette de régénération~
+@20010 = ~Cet objet a été créé par Urkodoël pour soutenir les clients qui céderaient facilement à la tentation du pouvoir qu'il a à offrir.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Régénération de 1 point de vie toutes les 4 secondes~
+
+@20011 = ~Amulette d’investissement limité~
+@20012 = ~Cet objet a été créé par Urkodoël pour soutenir les clients qui céderaient facilement à la tentation du pouvoir qu'il a à offrir.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Quand le porteur demande à Urkodoël de lui apprendre un sort, il perd moitié moins de point de vie que le coût normal (arrondi au supérieur). En contrepartie, il ne gagne aucune capacité de mémorisation supplémentaire.
+
+Poids : 0~
+
+@20013 = ~Amulette d’investissement supérieur~
+@20014 = ~Cet objet a été créé par Urkodoël pour soutenir les clients qui céderaient facilement à la tentation du pouvoir qu'il a à offrir.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Quand le porteur demande à Urkodoël de lui apprendre un sort, il perd 50% de points de vie en plus que le coût normal (arrondi au supérieur) mais gagne le double de capacités de mémorisation.
+
+Poids : 0~
+
+@20015 = ~Armure de vitalité suprême~ //Base plat10
+@20016 = ~Cet objet a été créé par Urkodoël pour soutenir les clients qui céderaient facilement à la tentation du pouvoir qu'il a à offrir.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Les points de vie maximum du porteur sont doublés
+
+Classe d'armure : 5 (7 contre les armes perforantes et les projectiles)
+Nécessite : 3 en Force
+
+Poids : 5~
+
+@20017 = ~Armure du canon de verre~ //base PLAT16
+@20018 = ~Cet objet a été créé par Urkodoël pour soutenir les clients qui céderaient facilement à la tentation du pouvoir qu'il a à offrir.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Les points de vie maximum du porteur sont fixés à 1 point de vie par niveau
+- Capacité de mémorisation de sorts améliorée de 4 sorts par niveau de sort
+
+Classe d'armure : 2 (0 contre les armes tranchantes, 1 contre les armes perforantes et les projectiles)
+Nécessite : 6 en Force
+
+Poids : 6~
+
+@20019 = ~Anneau d'équilibre mineur~
+@20020 = ~Cet objet a été créé par Urkodoël pour soutenir les clients qui céderaient facilement à la tentation du pouvoir qu'il a à offrir.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Permet de mémoriser un sort supplémentaire de 5e niveau, mais empêche la mémorisation de six sorts de 1er niveau.
+- Spécial : ne peut être porté conjointement avec l'Anneau de convergence.
+
+Poids : 0~
+
+@20021 = ~Anneau d'équilibre~
+@20022 = ~Cet objet a été créé par Urkodoël pour soutenir les clients qui céderaient facilement à la tentation du pouvoir qu'il a à offrir.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Permet de mémoriser un sort supplémentaire de 6e niveau, mais empêche la mémorisation de quatre sorts de 2e niveau.
+- Spécial : ne peut être porté conjointement avec l'Anneau de convergence.
+
+Poids : 0~
+
+@20023 = ~Anneau d'équilibre majeur~
+@20024 = ~Cet objet a été créé par Urkodoël pour soutenir les clients qui céderaient facilement à la tentation du pouvoir qu'il a à offrir.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Permet de mémoriser un sort supplémentaire de 7e niveau, mais empêche la mémorisation de trois sorts de 3e niveau.
+- Spécial : ne peut être porté conjointement avec l'Anneau de convergence.
+
+Poids : 0~
+
+@20025 = ~Anneau d'équilibre suprême~
+@20026 = ~Cet objet a été créé par Urkodoël pour soutenir les clients qui céderaient facilement à la tentation du pouvoir qu'il a à offrir.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Permet de mémoriser deux sorts supplémentaires de 6e niveau, mais empêche la mémorisation de quatre sorts de 4e niveau.
+- Spécial : ne peut être porté conjointement avec l'Anneau de convergence.
+
+Poids : 0~
+
+@20027 = ~Anneau de convergence~
+@20028 = ~Cet objet a été créé par Urkodoël pour soutenir les clients qui céderaient facilement à la tentation du pouvoir qu'il a à offrir.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Permet de mémoriser deux sorts supplémentaires de 7e niveau, mais empêche la mémorisation de trois sorts de chacun des niveaux 1 à 3.
+- Spécial : ne peut être porté conjointement avec un anneau d’équilibre.
+
+Poids : 0~
+
+@20029 = ~Amulette de transformation~
+@20030 = ~Cet objet a été créé par Urkodoël pour soutenir les clients qui céderaient facilement à la tentation du pouvoir qu'il a à offrir.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Quand le porteur demande à Urkodoël de lui apprendre un sort de niveau 2 à 7, il perd 50% de points de vie en plus que le coût normal (arrondi au supérieur) mais le sort est appris comme un sort d'un niveau en dessous (exemple : Boule de feu niveau 2).
+
+Poids : 0~
