@@ -1,5 +1,20 @@
 # Urkodoel
 
+![Language](https://img.shields.io/static/v1?label=language&message=english%20%7C%20french%20%7C%20&color=informational)
+![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macOS%20%7CLinux%20%7C%20&color=informational)
+![Supported games](https://img.shields.io/static/v1?label=supported%20games&message=BG2EE%20%7C%20EET%20%7C&color=dodgerblue)
+![GitHub Downloads (all assets, latest release)](https://img.shields.io/github/downloads/Deratiseur/Urkodoel/total)
+
+**Autor** : **Deratiseur**
+
+[Lien vers le sujet de discutions en français]([https://www.baldursgateworld.fr/viewtopic.php?t=34841])  
+[Link to original Mod Forum](https://forums.beamdog.com/discussion/89314/mod-oops-the-magician#p1)
+
+[Lisez moi complet en français.](https://htmlpreview.github.io/?https://github.com/Deratiseur/Oops/blob/main/Derats_Oops/Documents/Readme-French.html)  
+[Full Readme in english.](https://htmlpreview.github.io/?https://github.com/Deratiseur/Oops/blob/main/Derats_Oops/Documents/Readme-English.html)   
+
+## Description :
+
 Urkodoël est une anarchiliche que vous pouvez trouver dans le cimetière d'Athkatla, dans le cul de sac à coté de l'oncle Lester.  
   
 Il peut apprendre à n'importe quel clerc, druide ou chaman (multiclasse inclut) des sorts arcaniques. Cela ne coûte pas d'or. À la place, ça coûte des points de vie maximaux définitivement perdus, 1 point de vie par niveau de sort (exemple : un shaman qui veut apprendre Boule de feu perdra définitivement 3 points de vie maximum).  
