@@ -10,8 +10,8 @@
 [Lien vers le sujet de discutions en français](https://www.baldursgateworld.fr/viewtopic.php?t=35477)  
 [Link to original Mod Forum](https://forums.beamdog.com/discussion/90896/mod-urkodoel-the-anarchilich/p1)
 
-[Lisez moi complet en français.](https://htmlpreview.github.io/?https://github.com/Deratiseur/Urkodeol/blob/main/Derats_Urkodeol/Documents/Readme_French.html)  
-[Full Readme in english.](https://htmlpreview.github.io/?https://github.com/Deratiseur/Urkodeol/blob/main/Derats_Urkodeol/Documents/Readme_English.html)   
+[Lisez moi complet en français.](https://htmlpreview.github.io/?https://github.com/Deratiseur/Urkodoel/blob/main/Derats_Urkodoel/Documents/Readme_French.html)  
+[Full Readme in english.](https://htmlpreview.github.io/?https://github.com/Deratiseur/Urkodoell/blob/main/Derats_Urkodoel/Documents/Readme_English.html)   
 
 ## Description :
 
