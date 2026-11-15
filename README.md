@@ -7,14 +7,14 @@ Urkooël propose aussi les sort de niveau 8 , 9 et épiques (HLA), qui sont appr
 Urkodoël vend aussi du matériel, dont 3 amulettes qui peuvent changer son fonctionnement. Penser à les regarder avant tout investissement.
 
 Urkodoël propose tous les sorts et hla de base du jeu, plus tous les sorts installés par les mods :
-- les sorts de [l'Interplan](https://github.com/Deratiseur/Interplan) ;
-- les sorts de IWDEE installés par [IWDification](https://github.com/Gibberlings3/iwdification) ou [SCS](https://www.gibberlings3.net/mods/tweaks/scs/) ;
-- les 9 sorts arcaniques installés par [SCS](https://www.gibberlings3.net/mods/tweaks/scs/) ;
-- les sorts de [Olvyn's Spells](https://github.com/OlvynChuru/OlvynSpells) ;
-- les sorts de [Made in Heaven Spellpack](https://github.com/AngelGryph/MadeInHeaven_SpellPack) ;
-- les sorts de [Refinement](https://spellholdstudios.net/ie/refinements/)(sorts épiques) ;
-- les sort de [Saradas Magic](https://github.com/SpellholdStudios/Saradas_Magic_for_BG2)(sorts épiques) ;
-- le sort Courbespace de [Test Your Mettle](https://github.com/Argent77/A7-TestYourMettle) ;
+- les sorts de [l'Interplan](https://github.com/Deratiseur/Interplan)
+- les sorts de IWDEE installés par [IWDification](https://github.com/Gibberlings3/iwdification) ou [SCS](https://www.gibberlings3.net/mods/tweaks/scs/)
+- les 9 sorts arcaniques installés par [SCS](https://www.gibberlings3.net/mods/tweaks/scs/)
+- les sorts de [Olvyn's Spells](https://github.com/OlvynChuru/OlvynSpells)
+- les sorts de [Made in Heaven Spellpack](https://github.com/AngelGryph/MadeInHeaven_SpellPack)
+- les sorts de [Refinement](https://spellholdstudios.net/ie/refinements/) (sorts épiques)
+- les sorts de [Saradas Magic](https://github.com/SpellholdStudios/Saradas_Magic_for_BG2) (sorts épiques)
+- le sort Courbespace de [Test Your Mettle](https://github.com/Argent77/A7-TestYourMettle)
 - le sort [Invocation de dragon rouge](https://github.com/SpellholdStudios/Red_Dragon_Summoning_Spell).
 
 
