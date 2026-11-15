@@ -8,10 +8,10 @@
 **Autor** : **Deratiseur**
 
 [Lien vers le sujet de discutions en français](https://www.baldursgateworld.fr/viewtopic.php?t=35477)  
-[Link to original Mod Forum](https://forums.beamdog.com/discussion/89314/mod-oops-the-magician#p1)
+[Link to original Mod Forum](https://forums.beamdog.com/discussion/90896/mod-urkodoel-the-anarchilich/p1)
 
-[Lisez moi complet en français.](https://htmlpreview.github.io/?https://github.com/Deratiseur/Oops/blob/main/Derats_Oops/Documents/Readme-French.html)  
-[Full Readme in english.](https://htmlpreview.github.io/?https://github.com/Deratiseur/Oops/blob/main/Derats_Oops/Documents/Readme-English.html)   
+[Lisez moi complet en français.](https://htmlpreview.github.io/?https://github.com/Deratiseur/Urkodeol/blob/main/Derats_Urkodeol/Documents/Readme-French.html)  
+[Full Readme in english.](https://htmlpreview.github.io/?https://github.com/Deratiseur/Urkodeol/blob/main/Derats_Urkodeol/Documents/Readme-English.html)   
 
 ## Description :
 
