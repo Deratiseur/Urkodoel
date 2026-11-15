@@ -1,6 +1,7 @@
 # Urkodoel
 
 Urkodoël est une anarchiliche que vous pouvez trouver dans le cimetière d'Athkatla, dans le cul de sac à coté de l'oncle Lester.  
+  
 Il peut apprendre à n'importe quel clerc, druide ou chaman (multiclasse inclut) des sorts arcaniques. Cela ne coûte pas d'or. À la place, ça coûte des points de vie maximaux définitivement perdus, 1 point de vie par niveau de sort (exemple : un shaman qui veut apprendre Boule de feu perdra définitivement 3 points de vie maximum).  
 Comme cela fait cher pour un sort, Urkodoël donne aussi la capacité de mémorisation qui accompagne le sort (dans l'exemple, le shaman gagne +1 slot de mémorisation d'un sort de niveau 3).
 Urkooël propose aussi les sort de niveau 8 , 9 et épiques (HLA), qui sont appris comme des sorts de niveau 7.
