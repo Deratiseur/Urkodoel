@@ -34,4 +34,28 @@ Urkodoël propose tous les sorts et hla de base du jeu, plus tous les sorts inst
 - le sort Courbespace de [Test Your Mettle](https://github.com/Argent77/A7-TestYourMettle)
 - le sort [Invocation de dragon rouge](https://github.com/SpellholdStudios/Red_Dragon_Summoning_Spell).
 
+- ---
 
+## Description:
+
+Urkodoël is an anarchilich you can find in Athkatla's Graveyard District, in the dead end near Uncle Lester.
+
+He can teach arcane spells to any cleric, druid, or shaman (including multiclass characters). This costs no gold. Instead, the price is paid in permanently lost maximum hit points: 1 hit point per spell level (for example, a shaman learning Fireball permanently loses 3 maximum hit points).
+
+Since this is a high price to pay for a spell, Urkodoël also grants the corresponding memorization slot (in this example, the shaman gains +1 level 3 spell slot).
+
+Urkodoël also offers level 8, level 9, and epic spells (HLAs), which are learned as level 7 spells.
+
+Urkodoël also sells equipment, including 3 amulets that can change how his services work. Be sure to look at them before making your first investment.
+
+Urkodoël offers all the spells and HLAs from the base game, as well as spells installed by the following mods:
+
+- Spells from [The Interplan](https://github.com/Deratiseur/Interplan)
+- IWDEE spells installed by [IWDification](https://github.com/Gibberlings3/iwdification) or [SCS](https://www.gibberlings3.net/mods/tweaks/scs/)
+- The 9 arcane spells installed by [SCS](https://www.gibberlings3.net/mods/tweaks/scs/)
+- Spells from [Olvyn's Spells](https://github.com/OlvynChuru/OlvynSpells)
+- Spells from [Made in Heaven Spellpack](https://github.com/AngelGryph/MadeInHeaven_SpellPack)
+- Spells from [Refinement](https://spellholdstudios.net/ie/refinements/) (epic spells)
+- Spells from [Saradas Magic](https://github.com/SpellholdStudios/Saradas_Magic_for_BG2) (epic spells)
+- The Courbespace spell from [Test Your Mettle](https://github.com/Argent77/A7-TestYourMettle)
+- The [Summon Red Dragon](https://github.com/SpellholdStudios/Red_Dragon_Summoning_Spell) spell.
