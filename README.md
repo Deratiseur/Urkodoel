@@ -29,7 +29,7 @@ Urkodoël also offers level 8, level 9, and epic spells (HLAs), which are learne
 
 Urkodoël also sells equipment, including 3 amulets that can change how his services work. Be sure to look at them before making your first investment.
 
-Urkodoël offers all the spells and HLAs from the base game, as well as spells installed by the following mods:
+Urkodoël offers all the spells and HLAs from the base game, as well as spells installed by the following mods if they are installed before:
 
 - Spells from [The Interplan](https://github.com/Deratiseur/Interplan)
 - IWDEE spells installed by [IWDification](https://github.com/Gibberlings3/iwdification) or [SCS](https://www.gibberlings3.net/mods/tweaks/scs/)
@@ -54,7 +54,7 @@ Urkooël propose aussi les sort de niveau 8 , 9 et épiques (HLA), qui sont appr
 
 Urkodoël vend aussi du matériel, dont 3 amulettes qui peuvent changer son fonctionnement. Penser à les regarder avant tout investissement.
 
-Urkodoël propose tous les sorts et hla de base du jeu, plus tous les sorts installés par les mods :
+Urkodoël propose tous les sorts et hla de base du jeu, plus tous les sorts installés par les mods (s'ils sont installés avant):
 - les sorts de [l'Interplan](https://github.com/Deratiseur/Interplan)
 - les sorts de IWDEE installés par [IWDification](https://github.com/Gibberlings3/iwdification) ou [SCS](https://www.gibberlings3.net/mods/tweaks/scs/)
 - les 9 sorts arcaniques installés par [SCS](https://www.gibberlings3.net/mods/tweaks/scs/)
