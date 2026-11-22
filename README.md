@@ -19,7 +19,7 @@
 
 ## English
 
-Urkodoël is an anarchilich you can find in Athkatla's Graveyard District, in the dead end near Uncle Lester.
+Urkodoël is an anarchilich you can find in Athkatla's Graveyard District, in the dead end near Uncle Lester (BG2EE/EET), or in the small cave in the lower-left part of Kuldahar Pass (IWDEE).
 
 He can teach arcane spells to any cleric, druid, or shaman (including multiclass characters). This costs no gold. Instead, the price is paid in permanently lost maximum hit points: 1 hit point per spell level (for example, a shaman learning Fireball permanently loses 3 maximum hit points).
 
@@ -46,7 +46,7 @@ Urkodoël offers all the spells and HLAs from the base game, as well as spells i
 
 ## Français
 
-Urkodoël est une anarchiliche que vous pouvez trouver dans le cimetière d'Athkatla, dans le cul de sac à coté de l'oncle Lester.  
+Urkodoël est une anarchiliche que vous pouvez trouver dans le cimetière d'Athkatla, dans le cul-de-sac près de l'oncle Lester (BG2EE/EET), ou dans la petite grotte en bas à gauche de la Passe de Kuldahar (IWDEE).
   
 Il peut apprendre à n'importe quel clerc, druide ou chaman (multiclasse inclut) des sorts arcaniques. Cela ne coûte pas d'or. À la place, ça coûte des points de vie maximaux définitivement perdus, 1 point de vie par niveau de sort (exemple : un shaman qui veut apprendre Boule de feu perdra définitivement 3 points de vie maximum).  
 Comme cela fait cher pour un sort, Urkodoël donne aussi la capacité de mémorisation qui accompagne le sort (dans l'exemple, le shaman gagne +1 slot de mémorisation d'un sort de niveau 3).
