@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Urkodoël — Readme</title>
+<style>
+   :root{
+  --gold: goldenrod;
+  --gold2:#c79a35;
+  --line:#96846e;
+  --brown:#655949;
+  --brown2:#41382f;
+  --paper:#4b463f;
+  --paper2:#37332e;
+  --text:#deded9;
+  --muted:#c4bfb7;
+  --black:#080706;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  padding:0 0 50px;
+  cursor:default;
+  color:var(--text);
+  background:
+    radial-gradient(ellipse at 20% 10%, rgba(120,95,55,.14), transparent 34%),
+    radial-gradient(ellipse at 80% 60%, rgba(95,70,40,.11), transparent 38%),
+    linear-gradient(#080706,#15120e 45%,#080706);
+  font-family:Verdana,Tahoma,Arial,sans-serif;
+  font-size:16px;
+}
+#cartouche{
+  width:calc(100% - 4cm);
+  max-width:none;
+  margin:20px 2cm 0;
+}
+#header{
+  text-align:center;
+  padding:8px 20px 18px;
+  min-height:245px;
+  border:1px solid var(--gold);
+  border-top:5px solid var(--gold);
+  border-bottom:5px solid var(--gold);
+  border-radius:4px;
+  box-shadow:8px 8px 15px #000;
+  background:
+    linear-gradient(rgba(255,255,255,.06),rgba(0,0,0,.16)),
+    radial-gradient(ellipse at center, #514a40 0,#2c2925 55%,#080706 100%);
+}
+h1{
+  line-height:170%;
+  font-size:225%;
+  color:var(--gold);
+  margin:0;
+  text-shadow:.1rem .1rem .25rem #000;
+}
+.subtitle{
+  margin:2px auto 18px;
+  color:#eee9dd;
+  font-size:105%;
+  font-weight:bold;
+}
+.header-rule{
+  width:90%;
+  height:1px;
+  margin:18px auto;
+  background:var(--gold);
+}
+.header-grid{
+  position:relative;
+  width:100%;
+  height:3.4em;
+  margin:0 auto;
+  font-size:105%;
+}
+.header-col{
+  position:absolute;
+  top:0;
+  width:max-content;
+  text-align:left;
+  line-height:170%;
+  transform:translateX(-50%);
+}
+.header-col-left{left:25%}
+.header-col-right{left:75%}
+.header-grid strong{color:#f1eee8}
+#menu{
+  font-weight:bold;
+  margin-top:20px;
+  padding:10px 18px;
+  text-align:center;
+  color:var(--gold);
+  line-height:220%;
+  border-top:1px solid #51483b;
+  border-bottom:1px solid #17130f;
+  border-radius:4px;
+  box-shadow:5px 5px 12px #000;
+  background:linear-gradient(#5f5447,#342d25 45%,#1a1713);
+}
+a:link,a:visited{color:var(--gold);text-decoration:none}
+a:hover,a:focus{text-decoration:underline;color:#eee}
+#maindiv{margin:0 auto;width:100%}
+.content{
+  background:
+    radial-gradient(circle at 15% 0, rgba(255,255,255,.035), transparent 26%),
+    linear-gradient(135deg, rgba(255,255,255,.025), transparent 35%),
+    linear-gradient(var(--paper),var(--paper2));
+  padding:0 0 28px;
+  margin:50px auto;
+  border-width:1px 1px 4px 10px;
+  border-style:solid;
+  border-color:var(--brown);
+  position:relative;
+  border-radius:4px;
+  box-shadow:8px 8px 15px #000;
+  overflow:hidden;
+}
+h2{
+  line-height:170%;
+  display:block;
+  text-align:left;
+  text-indent:30px;
+  padding:3px 0;
+  margin:0;
+  border-top:2px dotted var(--line);
+  border-bottom:2px dotted var(--line);
+  font-size:160%;
+  background:linear-gradient(#50473d,#2d2822);
+}
+h2::first-letter{color:var(--gold)}
+h3,h4{
+  line-height:170%;
+  margin:14px auto 8px;
+  width:90%;
+  padding:0;
+}
+h3{font-size:140%;color:#eee}
+h4{font-size:120%;color:var(--gold)}
+p{
+  text-align:justify;
+  font-size:110%;
+  line-height:150%;
+  margin:10px auto;
+  width:90%;
+}
+ul{
+  line-height:170%;
+  margin-left:4%;
+  width:87%;
+}
+hr{
+  margin:20px auto;
+  width:90%;
+  height:1px;
+  border:0;
+  background:var(--gold);
+}
+.important{
+  font-size:110%;
+  text-align:left;
+  border-width:1px 4px;
+  border-style:solid;
+  border-color:var(--gold);
+  padding:10px 16px;
+  margin:18px auto;
+  width:84%;
+  line-height:160%;
+  background:rgba(0,0,0,.13);
+}
+.note{
+  color:#f0eadf;
+  border-left:4px solid var(--gold);
+  width:88%;
+  margin:18px auto;
+  padding:10px 14px;
+  background:rgba(0,0,0,.16);
+  line-height:160%;
+}
+
+/* Grandes zones repliables */
+details.zone{
+  width:90%;
+  margin:14px auto;
+  border:1px solid #796b58;
+  border-left:5px solid var(--gold);
+  border-radius:3px;
+  background:rgba(0,0,0,.18);
+  box-shadow:0 2px 7px rgba(0,0,0,.35);
+}
+details.zone > summary{
+  list-style:none;
+  cursor:pointer;
+  padding:11px 15px;
+  font-weight:bold;
+  font-size:125%;
+  color:#eee;
+  background:linear-gradient(#4d4439,#29251f);
+  user-select:none;
+}
+details.zone > summary::-webkit-details-marker{display:none}
+details.zone > summary::before{
+  content:"▶";
+  color:var(--gold);
+  margin-right:10px;
+}
+details.zone[open] > summary::before{content:"▼"}
+.zonebody{padding:10px 16px 18px}
+.zonebody h4{
+  width:100%;
+  margin:14px 0 5px;
+  padding-bottom:3px;
+  border-bottom:1px solid #6c6153;
+}
+.zonebody ul{width:96%;margin-left:1.5%}
+
+/* Spoiler imbriqué : option plus difficile */
+details.hard{
+  width:96%;
+  margin:20px auto 4px;
+  border:1px solid var(--gold2);
+  background:#29251f;
+}
+details.hard > summary{
+  list-style:none;
+  cursor:pointer;
+  padding:9px 12px;
+  font-weight:bold;
+  color:var(--gold);
+  background:linear-gradient(#443a2e,#211d18);
+}
+details.hard > summary::-webkit-details-marker{display:none}
+details.hard > summary::before{
+  content:"▶";
+  margin-right:8px;
+}
+details.hard[open] > summary::before{content:"▼"}
+.hardbody{padding:10px 14px}
+
+/* Versions */
+details.versionbox{
+  width:90%;
+  margin:11px auto;
+  border-top:1px solid var(--gold);
+  border-bottom:1px solid var(--gold);
+}
+details.versionbox > summary{
+  cursor:pointer;
+  padding:7px 5px;
+  font-weight:bold;
+  color:#eee;
+}
+.versionbody{padding:4px 12px 10px}
+.versionbody ul{width:95%}
+
+.backtop{
+  text-align:right;
+  font-weight:bold;
+  margin:20px 5% 0;
+}
+.small{font-size:95%;color:var(--muted)}
+@media(max-width:760px){
+  #cartouche{width:96%;margin:12px auto 0}
+  .header-grid{height:auto}
+  .header-col{
+    position:static;
+    width:auto;
+    transform:none;
+    margin:5px 8%;
+  }
+  #header{min-height:0}
+  details.zone,p,.important,.note{width:94%}
+}
+
+
+/* Listes de l'Interplan */
+.item-list,.spell-level{width:90%;margin:14px auto;}
+.item-entry,.spell-entry{padding:10px 14px;margin:0;border-bottom:1px solid #6c6153;background:rgba(0,0,0,.08);}
+.item-entry:last-child,.spell-entry:last-child{border-bottom:0;}
+.item-head{display:flex;gap:14px;align-items:baseline;justify-content:space-between;flex-wrap:wrap;}
+.item-name,.spell-name{font-weight:bold;color:#eee;font-size:112%;}
+.item-type{color:var(--gold);font-weight:bold;white-space:nowrap;}
+.item-restriction{color:var(--muted);font-style:italic;width:100%;margin-top:2px;}
+.item-desc,.spell-desc{margin:5px 0 0;width:100%;font-size:102%;line-height:150%;text-align:left;}
+.spell-level{border:1px solid #796b58;border-left:5px solid var(--gold);border-radius:3px;overflow:hidden;background:rgba(0,0,0,.15);}
+.spell-level h3{width:100%;margin:0;padding:8px 14px;background:linear-gradient(#4d4439,#29251f);color:var(--gold);}
+.placeholder{width:88%;margin:18px auto;padding:12px 15px;border:1px dashed #8b7a63;color:var(--muted);background:rgba(0,0,0,.12);}
+.credits-list{width:90%;margin:10px auto;line-height:165%;}
+
+details.item-category-spoiler{
+  width:90%;
+  margin:16px auto;
+  border:1px solid #796b58;
+  border-left:5px solid var(--gold);
+  border-radius:3px;
+  overflow:hidden;
+  background:rgba(0,0,0,.15);
+}
+details.item-category-spoiler > summary{
+  list-style:none;
+  cursor:pointer;
+  padding:10px 14px;
+  font-weight:bold;
+  font-size:140%;
+  color:var(--gold);
+  background:linear-gradient(#4d4439,#29251f);
+  user-select:none;
+}
+details.item-category-spoiler > summary::-webkit-details-marker{display:none;}
+details.item-category-spoiler > summary::before{content:"▶";margin-right:10px;}
+details.item-category-spoiler[open] > summary::before{content:"▼";}
+.item-category-body{padding:0;}
+.item-category-body .item-entry{margin:0;}
+  
+
+details.spell-level > summary{
+  color:var(--gold);
+}
+  
+
+/* Spoilers imbriqués : même format, titre plus petit */
+.item-entry details.item-category-spoiler > summary{
+  font-size:100%;
+}
+   .item-source-ref{
+  font-size:70%;
+  color:var(--muted);
+  vertical-align:super;
+  font-weight:normal;
+}
+   /* Chandelle du monstre : sources des pierres */
+.stone-name{
+  font-weight:normal;
+  color:var(--text);
+}
+.interplan-source{
+  color:#eee;
+  font-weight:normal;
+  white-space:nowrap;
+}
+   /* Anneau alchimique : présentation type sorts */
+.alchemy-effects{
+  width:88%;
+  margin:10px auto 14px;
+  line-height:150%;
+}
+.alchemy-effects > li{
+  margin:8px 0 12px;
+}
+.alchemy-potion-name{
+  color:#eee;
+  font-weight:bold;
+}
+.alchemy-potion-effect{
+  margin-top:2px;
+  color:var(--text);
+}
+  
+/* Table layout for Nustill's Unconventional Summoning Scepter */
+.sceptre-table-wrap{width:96%;margin:8px auto 20px;overflow-x:auto;}
+.sceptre-table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:95%;line-height:145%;background:rgba(0,0,0,.08);}
+.sceptre-table col:nth-child(1){width:19%;}.sceptre-table col:nth-child(2){width:29%;}.sceptre-table col:nth-child(3){width:18%;}.sceptre-table col:nth-child(4){width:34%;}
+.sceptre-table th{padding:7px 9px;text-align:left;color:var(--gold);background:rgba(0,0,0,.22);border-bottom:2px solid #796b58;font-size:95%;}
+.sceptre-table td{padding:7px 9px;vertical-align:top;border-bottom:1px solid #62584b;overflow-wrap:anywhere;}
+.sceptre-table tbody tr:last-child td{border-bottom:0;}.sceptre-table td:first-child{font-weight:bold;color:#eee;}.sceptre-table td:nth-child(3){color:#eee;}.sceptre-table-empty{color:var(--muted);}
+@media(max-width:900px){.sceptre-table{min-width:900px;}}
+  
+.header-links{margin:20px auto 0;line-height:1.8;font-size:95%}
+.header-links a{white-space:nowrap}
+@media(max-width:760px){.header-links a{white-space:normal}}
+
+.tarif{width:90%;margin:16px auto;border-collapse:collapse;line-height:155%;font-size:100%}.tarif th,.tarif td{padding:10px 12px;border-bottom:1px solid #796b58;text-align:left;vertical-align:top}.tarif th{color:var(--gold);background:#2f2923}.tarif td:first-child{color:#eee;font-weight:bold}.list-sources{width:87%;margin:12px auto;line-height:175%}.backtop a{font-size:90%}</style>
+</head>
+<body>
+<div id="cartouche">
+<div id="header">
+<a id="top"></a>
+<h1>Urkodoël</h1>
+<div class="subtitle">A mod for BG2EE, EET and IWDEE</div>
+<div class="header-rule"></div>
+<div class="header-grid"><div class="header-col header-col-left"><div><strong>Author:</strong> Deratiseur</div><div><strong>Type:</strong> spells / items</div></div><div class="header-col header-col-right"><div><strong>Languages:</strong> French, English</div><div><strong>Version:</strong> 2</div></div></div>
+</div>
+<div id="menu"><a href="#intro">Introduction</a>  •  <a href="#fonctionnement">Spell Learning</a>  •  <a href="#sorts">Available Spells</a>  •  <a href="#equipement">Equipment</a>  •  <a href="#installation">Installation Instructions</a>  •  <a href="#versions">Versions</a></div>
+<div id="maindiv">
+<section class="content" id="intro"><h2>Introduction</h2>
+<p><strong>Urkodoël</strong> is an anarchilich found in Athkatla's Graveyard District, in the dead end near Uncle Lester (BG2EE/EET), or in the small cave in the lower-left part of Kuldahar Pass (IWDEE).</p>
+<p>She offers <strong>clerics, druids and shamans</strong>, including multiclass characters, an unusual bargain: learn arcane spells by permanently sacrificing some of their maximum hit points.</p>
+<p>Urkodoël charges <strong>no gold</strong> for these lessons. Instead, the hit point cost is permanent.</p>
+<div class="backtop"><a href="#top">Back to top</a></div></section>
+<section class="content" id="fonctionnement"><h2>Learning Spells</h2>
+<p>The standard cost is <strong>1 maximum hit point per spell level</strong>. In return, Urkodoël also grants one additional spell memorization slot at the level at which the spell is learned.</p>
+<div class="important"><strong>Example:</strong> a shaman learns <em>Fireball</em> (level 3), permanently loses 3 maximum hit points, and gains one additional level 3 divine spell slot.</div>
+<p>Level 8 and 9 arcane spells, as well as epic spells (HLAs), are learned and memorized as <strong>level 7 divine spells</strong>. Their cost is still based on their original spell level.</p>
+<table class="tarif"><thead><tr><th>Spell requested</th><th>Standard maximum HP loss</th><th>Memorization level</th></tr></thead><tbody>
+<tr><td>Levels 1–7</td><td>1–7 HP, depending on level</td><td>Same level</td></tr>
+<tr><td>Level 8</td><td>8 HP</td><td>7</td></tr>
+<tr><td>Level 9</td><td>9 HP</td><td>7</td></tr>
+<tr><td>Epic spell (HLA)</td><td>10 HP</td><td>7</td></tr></tbody></table>
+<p>Urkodoël refuses to teach a spell if the character’s current hit points are too low to survive the sacrifice, or if their maximum hit points are insufficient. She explains the difference between these two cases.</p>
+<p><strong>Urkodoël sells 3 amulets that can change the rules shown in this table. Take a look at them before making your first purchase.</strong></p>
+<div class="backtop"><a href="#top">Back to top</a></div></section>
+<section class="content" id="sorts"><h2>Available Spells</h2>
+<p>Urkodoël offers the base game’s arcane spells, as well as those from the following mods if they are installed before Urkodoël:</p>
+<ul class="list-sources"><li><strong><a href="https://github.com/Gibberlings3/SwordCoastStratagems" rel="noopener noreferrer" target="_blank">Sword Coast Stratagems (SCS)</a></strong> — nine additional arcane spells</li><li><strong>(BG2EE) Icewind Dale</strong> — through the <a href="https://github.com/Gibberlings3/SwordCoastStratagems" rel="noopener noreferrer" target="_blank">SCS</a> or <a href="https://github.com/Gibberlings3/iwdification" rel="noopener noreferrer" target="_blank">IWDification</a></li><li><strong><a href="https://github.com/Deratiseur/Interplan" rel="noopener noreferrer" target="_blank">The Interplan</a></strong></li><li><strong><a href="https://github.com/AngelGryph/MadeInHeaven_SpellPack" rel="noopener noreferrer" target="_blank">Made in Heaven Spellpack</a></strong> (HLAs are offered as epic spells)</li><li><strong><a href="https://github.com/OlvynChuru/OlvynSpells" rel="noopener noreferrer" target="_blank">Olvyn's Spells</a></strong> (HLAs are offered as epic spells)</li><li><strong><a href="https://spellholdstudios.net/ie/refinements/" rel="noopener noreferrer" target="_blank">Refinements</a></strong> (epic spell)</li><li><strong><a href="https://github.com/SpellholdStudios/Saradas_Magic_for_BG2" rel="noopener noreferrer" target="_blank">Saradas Magic</a></strong> (epic spell)</li><li><strong><a href="https://argent77.github.io/A7-TestYourMettle/index-fr.html" rel="noopener noreferrer" target="_blank">Courbespace</a></strong></li><li><strong><a href="https://github.com/SpellholdStudios/Red_Dragon_Summoning_Spell" rel="noopener noreferrer" target="_blank">Summon Red Dragon</a></strong> (epic spell)</li></ul>
+<div class="backtop"><a href="#top">Back to top</a></div></section>
+<section class="content" id="equipement"><h2>Items for Sale</h2>
+<p>Urkodoël also sells equipment designed to support characters who sacrifice their hit points in exchange for greater magical power.</p>
+<div class="item-categories">
+<details class="item-category-spoiler" open=""><summary>Equipment</summary><div class="item-category-body">
+<div class="item-entry"><div class="item-head"><span class="item-name">Greater Constitution Belt</span><span class="item-type">Belt</span></div><p class="item-desc">Constitution set to 20.</p></div>
+<div class="item-entry"><div class="item-head"><span class="item-name">Helm of Great Wisdom</span><span class="item-type">Helmet</span></div><p class="item-desc">Wisdom +3.</p></div>
+<div class="item-entry"><div class="item-head"><span class="item-name">Bracers of Greater Vitality</span><span class="item-type">Bracers</span></div><p class="item-desc">Maximum hit points +20.</p></div>
+<div class="item-entry"><div class="item-head"><span class="item-name">Vampiric Club</span><span class="item-type">Club</span></div><p class="item-desc">Club +3; each hit transfers 1 HP from the target to the wielder; on a critical hit, permanently transfers 1 maximum HP; +1 level 6 spell slot and +1 level 7 spell slot.</p></div>
+<div class="item-entry"><div class="item-head"><span class="item-name">Scepter of the True Arcanist</span><span class="item-type">Scepter (club)</span></div><p class="item-desc">Improved Alacrity; maximum casting time set to 5; +1 level 6 and +1 level 7 memorization slot.</p></div>
+<div class="item-entry"><div class="item-head"><span class="item-name">Armor of Supreme Vitality</span><span class="item-type">Armor</span></div><p class="item-desc">Doubles the wearer’s maximum hit points; AC 5.</p></div>
+<div class="item-entry"><div class="item-head"><span class="item-name">Glass Cannon Armor</span><span class="item-type">Armor</span></div><p class="item-desc">Maximum HP limited to 1 per character level; +4 memorization slots at each spell level; AC 2.</p></div>
+
+</div></details>
+<details class="item-category-spoiler" open=""><summary>Amulets</summary><div class="item-category-body">
+<div class="item-entry"><div class="item-head"><span class="item-name">Amulet of Regeneration</span><span class="item-type">Amulet</span></div><p class="item-desc">Regenerates 1 HP every 4 seconds.</p></div>
+<div class="item-entry"><div class="item-head"><span class="item-name">Amulet of Limited Investment</span><span class="item-type">Amulet</span></div><p class="item-desc">HP cost of learning halved (rounded up), with no additional spell slot.</p></div>
+<div class="item-entry"><div class="item-head"><span class="item-name">Amulet of Greater Investment</span><span class="item-type">Amulet</span></div><p class="item-desc">HP cost increased by 50% (rounded up), but grants two spell slots instead of one.</p></div>
+<div class="item-entry"><div class="item-head"><span class="item-name">Amulet of Transformation</span><span class="item-type">Amulet</span></div><p class="item-desc">For spells of levels 2–7: HP cost increased by 50% (rounded up), but the spell is learned at one level lower.</p></div>
+</div></details>
+<details class="item-category-spoiler" open=""><summary>Rings</summary><div class="item-category-body">
+<div class="item-entry"><div class="item-head"><span class="item-name">Minor Ring of Balance</span><span class="item-type">Ring</span></div><p class="item-desc">−6 level 1 spell slots; +1 level 5 spell slot.</p></div>
+<div class="item-entry"><div class="item-head"><span class="item-name">Ring of Balance</span><span class="item-type">Ring</span></div><p class="item-desc">−4 level 2 spell slots; +1 level 6 spell slot.</p></div>
+<div class="item-entry"><div class="item-head"><span class="item-name">Greater Ring of Balance</span><span class="item-type">Ring</span></div><p class="item-desc">−3 level 3 spell slots; +1 level 7 spell slot.</p></div>
+<div class="item-entry"><div class="item-head"><span class="item-name">Supreme Ring of Balance</span><span class="item-type">Ring</span></div><p class="item-desc">−4 level 4 spell slots; +2 level 6 spell slots.</p></div>
+<div class="item-entry"><div class="item-head"><span class="item-name">Ring of Convergence</span><span class="item-type">Ring</span></div><p class="item-desc">−3 spell slots at each of levels 1, 2 and 3; +2 level 7 spell slots.</p></div>
+<div class="item-entry"><div class="item-head"><span class="item-name">Ultimate Ring of Convergence</span><span class="item-type">Ring</span></div><p class="item-desc">Doubles spell memorization capacity for levels 6 and 7, but prevents memorization of all lower-level spells.</p></div>
+</div></details>
+</div>
+<div class="backtop"><a href="#top">Back to top</a></div></section>
+<section class="content" id="versions"><h2>Version History</h2><h3>Version 2</h3><ul><li>Fix: the mod would not install if SCS was not installed.</li><li>Added compatibility with IWDEE.</li><li>Added two items to the shop.</li><li>Urkodoël now stops offering spells if the character does not have enough hit points left to sacrifice.</li></ul><div class="backtop"><a href="#top">Back to top</a></div></section>
+<section class="content" id="installation"><h2>Installation Instructions</h2>
+<ol>
+<li>First install any spell mods you want Urkodoël to recognize.</li>
+<li>Extract the Urkodoël files into the game directory, alongside <code>chitin.key</code>.</li>
+<li>Run the WeiDU installer included with the mod and choose your language.</li>
+</ol>
+<p>To change the installation or uninstall the mod, run the installer again.</p>
+<div class="backtop"><a href="#top">Back to top</a></div></section>
+</div></div>
+</body></html>
