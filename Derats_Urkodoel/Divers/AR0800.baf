@@ -1,8 +1,0 @@
-IF
-	Global("Px_urko","GLOBAL",0)
-	AreaCheck("AR0800")
-THEN
-	RESPONSE #100
-		SetGlobal("Px_urko","GLOBAL",1)
-		CreateCreature("pxurkodo",[374.1521],15)
-END
