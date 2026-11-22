@@ -1,6 +1,6 @@
 BACKUP ~Derats_Urkodoel/Backup~
 AUTHOR ~Deratiseur, at the_deratiseur@hotmail.com~
-VERSION ~1~
+VERSION ~2~
 
 README ~Derats_Urkodoel/Documents/Readme-%LANGUAGE%.html~
 
@@ -88,7 +88,7 @@ COPY_EXISTING	~UI.MENU~	override
 	REPLACE_TEXTUALLY	~mageBookEnabled[ %TAB%]+==[ %TAB%]+false~	~mageBookEnabled == false and bookMode == 0~
 BUT_ONLY
 
-//Sorts qui générent les slots
+//Sorts qui gÃ©nÃ©rent les slots
 COPY_EXISTING	~pxuslot1.spl~	~override/pxuslot2.spl~	WRITE_BYTE 0xa2 2
 COPY_EXISTING	~pxuslot1.spl~	~override/pxuslot3.spl~	WRITE_BYTE 0xa2 4
 COPY_EXISTING	~pxuslot1.spl~	~override/pxuslot4.spl~	WRITE_BYTE 0xa2 8
@@ -96,7 +96,7 @@ COPY_EXISTING	~pxuslot1.spl~	~override/pxuslot5.spl~	WRITE_BYTE 0xa2 16
 COPY_EXISTING	~pxuslot1.spl~	~override/pxuslot6.spl~	WRITE_BYTE 0xa2 32
 COPY_EXISTING	~pxuslot1.spl~	~override/pxuslot7.spl~	WRITE_BYTE 0xa2 64
 
-//Sorts qui supprime des pvs définitivement au prêtre
+//Sorts qui supprime des pvs dÃ©finitivement au prÃªtre
 COPY_EXISTING	~pxuphp1.spl~	~override/pxuphp2.spl~	WRITE_LONG 0x9e "-2"
 COPY_EXISTING	~pxuphp1.spl~	~override/pxuphp3.spl~	WRITE_LONG 0x9e "-3"
 COPY_EXISTING	~pxuphp1.spl~	~override/pxuphp4.spl~	WRITE_LONG 0x9e "-4"
@@ -495,8 +495,8 @@ COPY_EXISTING ~pxugbase.spl~	~override/pxg2925.spl~ WRITE_ASCII 0xae ~pxu2925~ #
 /////////////////////////////////////////////////////////////////////////////////////
 /////////////////////   SORTS COMMUNS A REFERENCES DIFFERENTES   //////////////////
 /////////////////////////////////////////////////////////////////////////////////////
-// Cécité et Protection contre la pétrification : niveau 1 BG2EE, niveau 2 IWDEE.
-// Dissipation véritable : niveau 3 dans les deux jeux ; seule la ressource change.
+// CÃ©citÃ© et Protection contre la pÃ©trification : niveau 1 BG2EE, niveau 2 IWDEE.
+// Dissipation vÃ©ritable : niveau 3 dans les deux jeux ; seule la ressource change.
 // WIZARD_BLINDNESS
 ACTION_IF (IDS_OF_SYMBOL (~spell~ ~WIZARD_BLINDNESS~) >= 0) THEN BEGIN
     LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = ~WIZARD_BLINDNESS~ RET urk_common_res = spell_res END
@@ -955,7 +955,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuiresi ~True()~
 END
 
-// @1103 - Particules magiques de Déorie (niveau 1)
+// @1103 - Particules magiques de DÃ©orie (niveau 1)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2part~ spell_name = ~WIZARD_PX_DEORIES_MAGICAL_PARTICLES~
   RET pxi_spell_res
@@ -966,7 +966,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuipart ~True()~
 END
 
-// @1104 - Bouffée ardente (niveau 1)
+// @1104 - BouffÃ©e ardente (niveau 1)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2ecla~ spell_name = ~WIZARD_PX_FIRE_BURST~
   RET pxi_spell_res
@@ -977,7 +977,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuiecla ~True()~
 END
 
-// @1105 - Répulsion (niveau 1)
+// @1105 - RÃ©pulsion (niveau 1)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2rpul~ spell_name = ~WIZARD_PX_REPULSION~
   RET pxi_spell_res
@@ -999,7 +999,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuidisp ~True()~
 END
 
-// @1107 - Mot de pouvoir : Arrêt (niveau 1)
+// @1107 - Mot de pouvoir : ArrÃªt (niveau 1)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2stop~ spell_name = ~WIZARD_PX_POWERWORD_STOP~
   RET pxi_spell_res
@@ -1010,7 +1010,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuistop ~True()~
 END
 
-// @1201 - Précision (niveau 2)
+// @1201 - PrÃ©cision (niveau 2)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2prec~ spell_name = ~WIZARD_PX_ACCURACY~
   RET pxi_spell_res
@@ -1021,7 +1021,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuiprec ~True()~
 END
 
-// @1202 - Tampon d’énergie (niveau 2)
+// @1202 - Tampon dÂ’Ã©nergie (niveau 2)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2tamp~ spell_name = ~WIZARD_PX_ENERGY_BUFFER~
   RET pxi_spell_res
@@ -1054,7 +1054,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuicsou ~True()~
 END
 
-// @1205 - Bâton de puissance (niveau 2)
+// @1205 - BÃ¢ton de puissance (niveau 2)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2batp~ spell_name = ~WIZARD_PX_STAFF_OF_POWER~
   RET pxi_spell_res
@@ -1087,7 +1087,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuiproj ~True()~
 END
 
-// @1208 - Bête illusoire de Nix (niveau 2)
+// @1208 - BÃªte illusoire de Nix (niveau 2)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2nix~ spell_name = ~WIZARD_PX_NIXS_ILLUSORY_BEAST~
   RET pxi_spell_res
@@ -1098,7 +1098,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuinix ~True()~
 END
 
-// @1209 - Malédiction de l'essaim (niveau 2)
+// @1209 - MalÃ©diction de l'essaim (niveau 2)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2insc~ spell_name = ~WIZARD_PX_SWARM_CURSE~
   RET pxi_spell_res
@@ -1131,7 +1131,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuitech ~True()~
 END
 
-// @1212 - Regard appuyé de Salyvia (niveau 2)
+// @1212 - Regard appuyÃ© de Salyvia (niveau 2)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2rsal~ spell_name = ~WIZARD_PX_SALYVIAS_INTENSE_GAZE~
   RET pxi_spell_res
@@ -1153,7 +1153,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuivisi ~True()~
 END
 
-// @1302 - Prouesse guerrière (niveau 3)
+// @1302 - Prouesse guerriÃ¨re (niveau 3)
 ACTION_IF !DIRECTORY_EXISTS ~passive_warrior_hlas~ THEN BEGIN
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2prou~ spell_name = ~WIZARD_PX_FIGHTING_FEAT~
@@ -1199,7 +1199,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuiforc ~True()~
 END
 
-// @1306 - Arme chargée (niveau 3)
+// @1306 - Arme chargÃ©e (niveau 3)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2arma~ spell_name = ~WIZARD_PX_CHARGED_WEAPON~
   RET pxi_spell_res
@@ -1210,7 +1210,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuiarma ~True()~
 END
 
-// @1307 - Appétissant poulets de Nix (niveau 3)
+// @1307 - AppÃ©tissant poulets de Nix (niveau 3)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2poul~ spell_name = ~WIZARD_PX_NIXS_APPETIZING_LITTLE_CHICKENS~
   RET pxi_spell_res
@@ -1221,7 +1221,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuipoul ~True()~
 END
 
-// @1309 - Crane hurlant du Pandémonium (niveau 3)
+// @1309 - Crane hurlant du PandÃ©monium (niveau 3)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2cran~ spell_name = ~WIZARD_PX_SCREAMING_SKULL_OF_PANDEMONIUM~
   RET pxi_spell_res
@@ -1232,7 +1232,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuicran ~True()~
 END
 
-// @1310 - Aura merveilleuse de Déorie (niveau 3)
+// @1310 - Aura merveilleuse de DÃ©orie (niveau 3)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2aura~ spell_name = ~WIZARD_PX_DEORIE_MARVELOUS_AURA~
   RET pxi_spell_res
@@ -1243,7 +1243,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuiaura ~True()~
 END
 
-// @1311 - Fléau des fiélons (niveau 3)
+// @1311 - FlÃ©au des fiÃ©lons (niveau 3)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2flea~ spell_name = ~WIZARD_PX_SCOURGE_OF_FIENDS~
   RET pxi_spell_res
@@ -1254,7 +1254,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuiflea ~True()~
 END
 
-// @1312 - Vol de sortilège (niveau 3)
+// @1312 - Vol de sortilÃ¨ge (niveau 3)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2vlso~ spell_name = ~WIZARD_PX_SPELL_STEAL~
   RET pxi_spell_res
@@ -1320,7 +1320,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuivolc ~True()~
 END
 
-// @1318 - Sortie rapide de Déorie (niveau 3)
+// @1318 - Sortie rapide de DÃ©orie (niveau 3)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2srep~ spell_name = ~WIZARD_PX_DEORIES_QUICK_EXIT~
   RET pxi_spell_res
@@ -1331,7 +1331,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuiexit ~True()~
 END
 
-// @1319 - Intensification d’énergie (niveau 3)
+// @1319 - Intensification dÂ’Ã©nergie (niveau 3)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2itg~ spell_name = ~WIZARD_PX_ENERGY_INTENSIFICATION~
   RET pxi_spell_res
@@ -1342,7 +1342,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuiitg ~True()~
 END
 
-// @1320 - Accés de rage (niveau 3)
+// @1320 - AccÃ©s de rage (niveau 3)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2rag2~ spell_name = ~WIZARD_PX_FIT_OF_RAGE~
   RET pxi_spell_res
@@ -1408,7 +1408,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuinova ~True()~
 END
 
-// @1406 - Image réfléchie majeure (niveau 4)
+// @1406 - Image rÃ©flÃ©chie majeure (niveau 4)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2imag~ spell_name = ~WIZARD_PX_MAJOR_REFLECTED_IMAGE~
   RET pxi_spell_res
@@ -1441,7 +1441,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuipoig ~True()~
 END
 
-// @1410 - Bouclier des fées (niveau 4)
+// @1410 - Bouclier des fÃ©es (niveau 4)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2fees~ spell_name = ~WIZARD_PX_FAERIES_SHIELD~
   RET pxi_spell_res
@@ -1452,7 +1452,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuifees ~True()~
 END
 
-// @1411 - Conflagration électrique (niveau 4)
+// @1411 - Conflagration Ã©lectrique (niveau 4)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2boul~ spell_name = ~WIZARD_PX_ELECTRICAL_CONFLAGRATION~
   RET pxi_spell_res
@@ -1496,7 +1496,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuiroul ~True()~
 END
 
-// @1415 - Électronullification (niveau 4)
+// @1415 - Ã‰lectronullification (niveau 4)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2null~ spell_name = ~WIZARD_PX_ELECTRONULLIFICATION~
   RET pxi_spell_res
@@ -1507,7 +1507,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuinull ~True()~
 END
 
-// @1416 - Squelette frénétique (niveau 4)
+// @1416 - Squelette frÃ©nÃ©tique (niveau 4)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2sque~ spell_name = ~WIZARD_PX_FRENZIED_SKELETON~
   RET pxi_spell_res
@@ -1529,7 +1529,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuiarci ~True()~
 END
 
-// @1418 - Décharge statique (niveau 4)
+// @1418 - DÃ©charge statique (niveau 4)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2dech~ spell_name = ~WIZARD_PX_STATIC_DISCHARGE~
   RET pxi_spell_res
@@ -1551,7 +1551,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuimexp ~True()~
 END
 
-// @1502 - Corruption mnémonique (niveau 5)
+// @1502 - Corruption mnÃ©monique (niveau 5)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2corr~ spell_name = ~WIZARD_PX_MNEMONIC_CORRUPTION~
   RET pxi_spell_res
@@ -1595,7 +1595,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuibfir ~True()~
 END
 
-// @1507 - Précognition (niveau 5)
+// @1507 - PrÃ©cognition (niveau 5)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2aven~ spell_name = ~WIZARD_PX_PRECOGNITION~
   RET pxi_spell_res
@@ -1606,7 +1606,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuiaven ~True()~
 END
 
-// @1508 - Malédiction de Balichen (niveau 5)
+// @1508 - MalÃ©diction de Balichen (niveau 5)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2mld~ spell_name = ~WIZARD_PX_BALICHENS_CURSE~
   RET pxi_spell_res
@@ -1617,7 +1617,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuimld ~True()~
 END
 
-// @1510 - Magie assurée (niveau 5)
+// @1510 - Magie assurÃ©e (niveau 5)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2magi~ spell_name = ~WIZARD_PX_ENSURED_MAGIC~
   RET pxi_spell_res
@@ -1639,7 +1639,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuisofl ~True()~
 END
 
-// @1512 - Accélérateur de Lubath (niveau 5)
+// @1512 - AccÃ©lÃ©rateur de Lubath (niveau 5)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2acce~ spell_name = ~WIZARD_PX_LUBATHS_ACCELERATOR~
   RET pxi_spell_res
@@ -1683,7 +1683,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuibaar ~True()~
 END
 
-// @1518 - Déplacements magiques de Déorie (niveau 5)
+// @1518 - DÃ©placements magiques de DÃ©orie (niveau 5)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2srt2~ spell_name = ~WIZARD_PX_DEORIES_MAGICAL_EXIT~
   RET pxi_spell_res
@@ -1705,7 +1705,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuianma ~True()~
 END
 
-// @1520 - Vulnérabilité aux armes (niveau 5)
+// @1520 - VulnÃ©rabilitÃ© aux armes (niveau 5)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2vuln~ spell_name = ~WIZARD_PX_VULNERABILITY_TO_WEAPONS~
   RET pxi_spell_res
@@ -1716,7 +1716,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuivuln ~True()~
 END
 
-// @1521 - Sphère antimagique de Piboloo (niveau 5)
+// @1521 - SphÃ¨re antimagique de Piboloo (niveau 5)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2pibo~ spell_name = ~WIZARD_PX_BIBOLOOS_ANTIMAGIC_SPHERE~
   RET pxi_spell_res
@@ -1727,7 +1727,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuipibo ~True()~
 END
 
-// Déchaînement entropique* (niveau 5)
+// DÃ©chaÃ®nement entropique* (niveau 5)
 ACTION_IF FILE_EXISTS_IN_GAME ~pxl2dwe2.spl~ THEN BEGIN
 COPY_EXISTING ~pxl2dwe2.spl~	~override/pxuIdwe2.spl~ LPF SPELL_TO_CLERIC END
     OUTER_SPRINT urkavail_pxuidwe2 ~True()~
@@ -1811,7 +1811,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuichao ~True()~
 END
 
-// @1609 - Volée de projectiles chromatiques (niveau 6)
+// @1609 - VolÃ©e de projectiles chromatiques (niveau 6)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2chro~ spell_name = ~WIZARD_PX_SWARM_OF_CHROMATIC_MISSILES~
   RET pxi_spell_res
@@ -1855,7 +1855,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuichoc ~True()~
 END
 
-// @1613 - Innommable beauté (niveau 6)
+// @1613 - Innommable beautÃ© (niveau 6)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2inno~ spell_name = ~WIZARD_PX_UNSPEAKABLE_BEAUTY~
   RET pxi_spell_res
@@ -1877,7 +1877,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuigili ~True()~
 END
 
-// @1615 - Métamorphose de familier (niveau 6)
+// @1615 - MÃ©tamorphose de familier (niveau 6)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2faml~ spell_name = ~WIZARD_PX_POLYMORPH_FAMILIAR~
   RET pxi_spell_res
@@ -1899,7 +1899,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuipgem ~True()~
 END
 
-// @1617 - Éviscération (niveau 6)
+// @1617 - Ã‰viscÃ©ration (niveau 6)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2evs~ spell_name = ~WIZARD_PX_EVISCERATE~
   RET pxi_spell_res
@@ -1921,7 +1921,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuiperm ~True()~
 END
 
-// @1701 - Lamétoile (niveau 7)
+// @1701 - LamÃ©toile (niveau 7)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2leto~ spell_name = ~WIZARD_PX_STARBLADE~
   RET pxi_spell_res
@@ -1943,7 +1943,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuiaffl ~True()~
 END
 
-// @1704 - Flèche magique de Salyvia (niveau 7)
+// @1704 - FlÃ¨che magique de Salyvia (niveau 7)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2flec~ spell_name = ~WIZARD_PX_SALYVIAS_MAGIC_ARROW~
   RET pxi_spell_res
@@ -1986,7 +1986,7 @@ COPY_EXISTING ~%pxi_spell_res%.spl~	~override/pxuIlobi.spl~ LPF SPELL_TO_CLERIC 
     OUTER_SPRINT urkavail_pxuilobi ~True()~
 END
 
-// @1707 - Toile arachnéenne (niveau 7)
+// @1707 - Toile arachnÃ©enne (niveau 7)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2toil~ spell_name = ~WIZARD_PX_ARACHNID_WEB~
   RET pxi_spell_res
@@ -2019,7 +2019,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuiorbe ~True()~
 END
 
-// @1710 - Allié imagé (niveau 7)
+// @1710 - AlliÃ© imagÃ© (niveau 7)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2coge~ spell_name = ~WIZARD_PX_IMAGED_ALLY~
   RET pxi_spell_res
@@ -2030,7 +2030,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuicoge ~True()~
 END
 
-// @1711 - Création de mage spectral (niveau 7)
+// @1711 - CrÃ©ation de mage spectral (niveau 7)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2xspe~ spell_name = ~WIZARD_PX_SPECTRAL_MAGE_CREATION~
   RET pxi_spell_res
@@ -2041,7 +2041,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuixspe ~True()~
 END
 
-// @1712 - Connexion à la Nature (niveau 7)
+// @1712 - Connexion Ã  la Nature (niveau 7)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2nt2~ spell_name = ~WIZARD_PX_CONNECTION_TO_NATURE~
   RET pxi_spell_res
@@ -2052,7 +2052,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuint2 ~True()~
 END
 
-// @1713 - Amélioration de troupes selon Hachitoza (niveau 7)
+// @1713 - AmÃ©lioration de troupes selon Hachitoza (niveau 7)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2achi~ spell_name = ~WIZARD_PX_HACHITOZAS_TROOP_IMPROVEMENT~
   RET pxi_spell_res
@@ -2140,7 +2140,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuibrel ~True()~
 END
 
-// @1806 - Téléportations explosives (niveau 8)
+// @1806 - TÃ©lÃ©portations explosives (niveau 8)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2tele~ spell_name = ~WIZARD_PX_EXPLODING_TELEPORTATIONS~
   RET pxi_spell_res
@@ -2173,7 +2173,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuirage ~True()~
 END
 
-// @1809 - Combustion spontanée résonnante (niveau 8)
+// @1809 - Combustion spontanÃ©e rÃ©sonnante (niveau 8)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2comb~ spell_name = ~WIZARD_PX_RESONANT_SPONTANEOUS_COMBUSTION~
   RET pxi_spell_res
@@ -2195,7 +2195,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuiapfe ~True()~
 END
 
-// @1811 - Décharges vengeresses de Keleg-Ze (niveau 8)
+// @1811 - DÃ©charges vengeresses de Keleg-Ze (niveau 8)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2veng~ spell_name = ~WIZARD_PX_KELEGZES_VENGEFUL_DISCHARGES~
   RET pxi_spell_res
@@ -2206,7 +2206,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuiveng ~True()~
 END
 
-// @1812 - Sphère foudroyante de Keleg-Ze (niveau 8)
+// @1812 - SphÃ¨re foudroyante de Keleg-Ze (niveau 8)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2elec~ spell_name = ~WIZARD_PX_KELEGZES_LIGHTNING_SPHERE~
   RET pxi_spell_res
@@ -2217,7 +2217,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuielec ~True()~
 END
 
-// @1813 - Formidable Tétrade de Mazaron (niveau 8)
+// @1813 - Formidable TÃ©trade de Mazaron (niveau 8)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2tetr~ spell_name = ~WIZARD_PX_MAZARONS_FORMIDABLE_TETRAD~
   RET pxi_spell_res
@@ -2250,7 +2250,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuibrum ~True()~
 END
 
-// @1816 - Création de minion explosif (niveau 8)
+// @1816 - CrÃ©ation de minion explosif (niveau 8)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2sexp~ spell_name = ~WIZARD_PX_CREATE_EXPLOSIVE_MINION~
   RET pxi_spell_res
@@ -2316,7 +2316,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuiabys ~True()~
 END
 
-// @1901 - Assaut d’énergie (niveau 9)
+// @1901 - Assaut dÂ’Ã©nergie (niveau 9)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2assa~ spell_name = ~WIZARD_PX_ENERGY_ASSAULT~
   RET pxi_spell_res
@@ -2327,7 +2327,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuiassa ~True()~
 END
 
-// @1902 - Oblitération (niveau 9)
+// @1902 - OblitÃ©ration (niveau 9)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2obli~ spell_name = ~~
   RET pxi_spell_res
@@ -2393,7 +2393,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuiarna ~True()~
 END
 
-// @1908 - Contrôle du temps (niveau 9)
+// @1908 - ContrÃ´le du temps (niveau 9)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2ctem~ spell_name = ~~
   RET pxi_spell_res
@@ -2415,7 +2415,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuimaid ~True()~
 END
 
-// @1911 - Globe d'invulnérabilité féerique (niveau 9)
+// @1911 - Globe d'invulnÃ©rabilitÃ© fÃ©erique (niveau 9)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2glob~ spell_name = ~WIZARD_PX_FAERIC_GLOBE_OF_INVULNERABILITY~
   RET pxi_spell_res
@@ -2426,7 +2426,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuiglob ~True()~
 END
 
-// @1912 - Élixir de vie (niveau 9)
+// @1912 - Ã‰lixir de vie (niveau 9)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2elxi~ spell_name = ~~
   RET pxi_spell_res
@@ -2514,7 +2514,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~%pxi_spell_res%.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuiotyr ~True()~
 END
 
-// @1920 - Contrôle de Construction (niveau 9)
+// @1920 - ContrÃ´le de Construction (niveau 9)
 LAF PXO_INTERPLAN_SPELL
   STR_VAR direct_res = ~pxl2cdc~ spell_name = ~~
   RET pxi_spell_res
@@ -2982,7 +2982,7 @@ END
 /////////////////////////////////////////////////////////////////////////////////////
 // Les sorts MIH sont optionnels. Aucun parchemin, or ou XP requis.
 // Disponibilite MIH definie lors de la creation de chaque sort.
-// Les six sorts épiques MIH sont facultatifs : valeur de repli même si MIH est absent.
+// Les six sorts Ã©piques MIH sont facultatifs : valeur de repli mÃªme si MIH est absent.
 OUTER_SPRINT urkavail_pxum4906 ~False()~
 OUTER_SPRINT urkavail_pxum4907 ~False()~
 OUTER_SPRINT urkavail_pxum4908 ~False()~
@@ -3484,8 +3484,8 @@ ACTION_IF (IDS_OF_SYMBOL (~spell~ ~WIZARD_KHELBENS_DWEOMERDOOM~) >= 0) THEN BEGI
   END
 END
 
-// Sorts épiques MIH : RES_NUM_OF_SPELL_NAME retrouve la ressource réellement indexée.
-// @4906 - MIH_ELMINSTERS_EFFULGENT_EPURATION (référence 2DA : SPCL116)
+// Sorts Ã©piques MIH : RES_NUM_OF_SPELL_NAME retrouve la ressource rÃ©ellement indexÃ©e.
+// @4906 - MIH_ELMINSTERS_EFFULGENT_EPURATION (rÃ©fÃ©rence 2DA : SPCL116)
 ACTION_IF (IDS_OF_SYMBOL (~spell~ ~MIH_ELMINSTERS_EFFULGENT_EPURATION~) >= 0) THEN BEGIN
   LAF RES_NUM_OF_SPELL_NAME
     STR_VAR spell_name = ~MIH_ELMINSTERS_EFFULGENT_EPURATION~
@@ -3498,7 +3498,7 @@ ACTION_IF (IDS_OF_SYMBOL (~spell~ ~MIH_ELMINSTERS_EFFULGENT_EPURATION~) >= 0) TH
   END
 END
 
-// @4907 - MIH_IOULAUMS_LONGEVITY (référence 2DA : SPCL117)
+// @4907 - MIH_IOULAUMS_LONGEVITY (rÃ©fÃ©rence 2DA : SPCL117)
 ACTION_IF (IDS_OF_SYMBOL (~spell~ ~MIH_IOULAUMS_LONGEVITY~) >= 0) THEN BEGIN
   LAF RES_NUM_OF_SPELL_NAME
     STR_VAR spell_name = ~MIH_IOULAUMS_LONGEVITY~
@@ -3511,7 +3511,7 @@ ACTION_IF (IDS_OF_SYMBOL (~spell~ ~MIH_IOULAUMS_LONGEVITY~) >= 0) THEN BEGIN
   END
 END
 
-// @4908 - MIH_MAGIC_MISSILE_STORM (référence 2DA : SPCL118)
+// @4908 - MIH_MAGIC_MISSILE_STORM (rÃ©fÃ©rence 2DA : SPCL118)
 ACTION_IF (IDS_OF_SYMBOL (~spell~ ~MIH_MAGIC_MISSILE_STORM~) >= 0) THEN BEGIN
   LAF RES_NUM_OF_SPELL_NAME
     STR_VAR spell_name = ~MIH_MAGIC_MISSILE_STORM~
@@ -3524,7 +3524,7 @@ ACTION_IF (IDS_OF_SYMBOL (~spell~ ~MIH_MAGIC_MISSILE_STORM~) >= 0) THEN BEGIN
   END
 END
 
-// @4909 - MIH_NAZZERS_NULLIFICATION (référence 2DA : SPCL119)
+// @4909 - MIH_NAZZERS_NULLIFICATION (rÃ©fÃ©rence 2DA : SPCL119)
 ACTION_IF (IDS_OF_SYMBOL (~spell~ ~MIH_NAZZERS_NULLIFICATION~) >= 0) THEN BEGIN
   LAF RES_NUM_OF_SPELL_NAME
     STR_VAR spell_name = ~MIH_NAZZERS_NULLIFICATION~
@@ -3537,7 +3537,7 @@ ACTION_IF (IDS_OF_SYMBOL (~spell~ ~MIH_NAZZERS_NULLIFICATION~) >= 0) THEN BEGIN
   END
 END
 
-// @4910 - MIH_TOLODINES_KILLING_WIND (référence 2DA : SPCL120)
+// @4910 - MIH_TOLODINES_KILLING_WIND (rÃ©fÃ©rence 2DA : SPCL120)
 ACTION_IF (IDS_OF_SYMBOL (~spell~ ~MIH_TOLODINES_KILLING_WIND~) >= 0) THEN BEGIN
   LAF RES_NUM_OF_SPELL_NAME
     STR_VAR spell_name = ~MIH_TOLODINES_KILLING_WIND~
@@ -4283,12 +4283,12 @@ ACTION_IF FILE_EXISTS_IN_GAME ~MEWI968.spl~ THEN BEGIN
     OUTER_SPRINT urkavail_pxuo6918 ~True()~
 END
 
-END // End du if Olvyn installé
+END // End du if Olvyn installÃ©
 
 
 // Versions alternatives pour l'amulette : sorts de niveaux 2 a 7, reduits d'un niveau.
 // Le niveau 1 ne peut pas etre abaisse au niveau 0. Niveaux 8, 9 et epiques exclus.
-// Cécité et Protection contre la pétrification : conversion niveau 2 -> 1 sous IWDEE uniquement.
+// CÃ©citÃ© et Protection contre la pÃ©trification : conversion niveau 2 -> 1 sous IWDEE uniquement.
 ACTION_IF GAME_IS ~IWDEE~ THEN BEGIN
     ACTION_IF FILE_EXISTS_IN_GAME ~pxu2106.spl~ THEN BEGIN
         COPY_EXISTING ~pxu2106.spl~ ~override/pxv2106.spl~ LPF SPELL_TO_CLERIC_ALT INT_VAR niveau = 1 END
@@ -5959,7 +5959,7 @@ ACTION_IF GAME_IS ~IWDEE~ THEN BEGIN
     OUTER_SPRINT urk_elemental_iwd ~True()~
 END
 
-// Affichage des deux sorts déplacés : niveau 1 BG2EE / niveau 2 IWDEE.
+// Affichage des deux sorts dÃ©placÃ©s : niveau 1 BG2EE / niveau 2 IWDEE.
 OUTER_SPRINT urk_low_bg ~True()~
 OUTER_SPRINT urk_low_iwd ~False()~
 ACTION_IF GAME_IS ~IWDEE~ THEN BEGIN
@@ -5967,5 +5967,5 @@ ACTION_IF GAME_IS ~IWDEE~ THEN BEGIN
     OUTER_SPRINT urk_low_iwd ~True()~
 END
 
-// Compilation du dialogue après la création des sorts et sous-sorts.
+// Compilation du dialogue aprÃ¨s la crÃ©ation des sorts et sous-sorts.
 COMPILE EVALUATE_BUFFER ~Derats_Urkodoel/Divers/pxurkodo.d~
