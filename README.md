@@ -1,3 +1,4 @@
+
 # Urkodoël
 
 ![Language](https://img.shields.io/static/v1?label=language&message=english%20%7C%20french%20%7C%20&color=informational)
@@ -5,13 +6,13 @@
 ![Supported games](https://img.shields.io/static/v1?label=supported%20games&message=BG2EE%20%7C%20EET%20%7C%20IWDEE%20%7C&color=dodgerblue)
 ![GitHub Downloads (all assets, latest release)](https://img.shields.io/github/downloads/Deratiseur/Urkodoel/total)
 
-**Autor** : **Deratiseur**
+**Author** : **Deratiseur**
 
-[Lien vers le sujet de discutions en français](https://www.baldursgateworld.fr/viewtopic.php?t=35477)  
+[Lien vers le sujet de discussion en français](https://www.baldursgateworld.fr/viewtopic.php?t=35477)  
 [Link to original Mod Forum](https://forums.beamdog.com/discussion/90896/mod-urkodoel-the-anarchilich/p1)
 
-[Lisez moi complet en français.](https://htmlpreview.github.io/?https://github.com/Deratiseur/Urkodoel/blob/main/Derats_Urkodoel/Documents/Readme_French.html)  
-[Full Readme in english.](https://htmlpreview.github.io/?https://github.com/Deratiseur/Urkodoel/blob/main/Derats_Urkodoel/Documents/Readme_English.html)   
+[Lisez-moi complet en français.](https://htmlpreview.github.io/?https://github.com/Deratiseur/Urkodoel/blob/main/Derats_Urkodoel/Documents/Readme_French.html)  
+[Full Readme in English.](https://htmlpreview.github.io/?https://github.com/Deratiseur/Urkodoel/blob/main/Derats_Urkodoel/Documents/Readme_English.html)
 
 <table>
 <tr>
@@ -47,18 +48,21 @@ Urkodoël offers all the spells and HLAs from the base game, as well as spells i
 ## Français
 
 Urkodoël est une anarchiliche que vous pouvez trouver dans le cimetière d'Athkatla, dans le cul-de-sac près de l'oncle Lester (BG2EE/EET), ou dans la petite grotte en bas à gauche de la Passe de Kuldahar (IWDEE).
-  
-Il peut apprendre à n'importe quel clerc, druide ou chaman (multiclasse inclut) des sorts arcaniques. Cela ne coûte pas d'or. À la place, ça coûte des points de vie maximaux définitivement perdus, 1 point de vie par niveau de sort (exemple : un shaman qui veut apprendre Boule de feu perdra définitivement 3 points de vie maximum).  
-Comme cela fait cher pour un sort, Urkodoël donne aussi la capacité de mémorisation qui accompagne le sort (dans l'exemple, le shaman gagne +1 slot de mémorisation d'un sort de niveau 3).
-Urkooël propose aussi les sort de niveau 8 , 9 et épiques (HLA), qui sont appris comme des sorts de niveau 7.
 
-Urkodoël vend aussi du matériel, dont 3 amulettes qui peuvent changer son fonctionnement. Penser à les regarder avant tout investissement.
+Il peut apprendre à n'importe quel clerc, druide ou chaman (multiclasses incluses) des sorts arcaniques. Cela ne coûte pas d'or. À la place, ça coûte des points de vie maximaux définitivement perdus, 1 point de vie par niveau de sort (exemple : un chaman qui veut apprendre Boule de feu perdra définitivement 3 points de vie maximum).
 
-Urkodoël propose tous les sorts et hla de base du jeu, plus tous les sorts installés par les mods (s'ils sont installés avant):
+Comme cela fait cher pour un sort, Urkodoël donne aussi la capacité de mémorisation qui accompagne le sort (dans l'exemple, le chaman gagne +1 slot de mémorisation d'un sort de niveau 3).
+
+Urkodoël propose aussi les sorts de niveaux 8, 9 et épiques (HLA), qui sont appris comme des sorts de niveau 7.
+
+Urkodoël vend aussi du matériel, dont 3 amulettes qui peuvent changer son fonctionnement. Pensez à les regarder avant tout investissement.
+
+Urkodoël propose tous les sorts et HLA de base du jeu, plus tous les sorts installés par les mods (s'ils sont installés avant) :
+
 - les sorts de [l'Interplan](https://github.com/Deratiseur/Interplan)
-- (BG2EE) les sorts de IWDEE installés par [IWDification](https://github.com/Gibberlings3/iwdification) ou [SCS](https://www.gibberlings3.net/mods/tweaks/scs/)
+- (BG2EE) les sorts d'IWDEE installés par [IWDification](https://github.com/Gibberlings3/iwdification) ou [SCS](https://www.gibberlings3.net/mods/tweaks/scs/)
 - les 9 sorts arcaniques installés par [SCS](https://www.gibberlings3.net/mods/tweaks/scs/)
-- les sorts de [Olvyn's Spells](https://github.com/OlvynChuru/OlvynSpells)
+- les sorts d'[Olvyn's Spells](https://github.com/OlvynChuru/OlvynSpells)
 - les sorts de [Made in Heaven Spellpack](https://github.com/AngelGryph/MadeInHeaven_SpellPack)
 - les sorts de [Refinement](https://spellholdstudios.net/ie/refinements/) (sorts épiques)
 - les sorts de [Saradas Magic](https://github.com/SpellholdStudios/Saradas_Magic_for_BG2) (sorts épiques)
